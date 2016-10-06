@@ -34,26 +34,14 @@ $(function () {
     });
 });
 
-// lenguage block
+// submenu
 $(function () {
-    $('#lenguage-list li a').each(function () {
+    $('.toggle-submenu-list li a').each(function () {
         var location = window.location.pathname;
         var link = this.pathname;
         var result = location.match(link);
         if(result && link.length > 0) {
-            $(this).addClass('lenguage-item-active');
-        }
-    });
-});
-
-// lenguage block
-$(function () {
-    $('.pagination-list li a').each(function () {
-        var location = window.location.pathname;
-        var link = this.pathname;
-        var result = location.match(link);
-        if(result && link.length > 0) {
-            $(this).addClass('pagination-active');
+            $(this).addClass('submenu-item-active');
         }
     });
 });
@@ -121,4 +109,8 @@ $( document ).ready(function() {
 // FIND DROPDOVN AND ADD CLASS ANGLE DOWN IN SELECT CITY BLOCK
 $(document).ready(function($) {
     $(".select-city").find(".icon").addClass('angle down');
+});
+//for mobile submenu
+$(".hidden-menu .toggle-menu").click(function() {
+    $(this).find(".toggle-submenu").toggleClass("toggle-active");
 });

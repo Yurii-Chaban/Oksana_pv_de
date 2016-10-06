@@ -2,7 +2,7 @@ header {
 	max-height: 64px;
 	height: 100%;
 	padding: 11px 0;
-	background-color: #f0e9e0;
+	background-color: #ffba62;
 
 	.main-menu,
 	.lenguage-block {
@@ -18,10 +18,10 @@ header {
 			padding: 0;
 			margin: 0;
 			box-sizing: border-box;
-			width: 217px;
+			width: 220px;
 			background-color: #f19811;
 			height: auto;
-			top: 52px;
+			top: 53px;
 			left: -650px;
 			transition: left .2s;
 			z-index: 9;
@@ -30,12 +30,13 @@ header {
 			li {
 				display: block;
 				width: 100%;
-				height: 43px;
+				height: auto;
 				margin: 0 auto;
 				text-align: left;
 				line-height: 43px;
 				vertical-align: middle;
 				border-bottom: 1px solid #fff;
+				@include transition;
 
 				&:first-child,
 				&:last-child {
@@ -44,12 +45,18 @@ header {
 
 				a {
 					display: block;
+					overflow: hidden;
 					width: 100%;
 					height: 100%;
 					padding-left: 26px;
 					color: black;
 					font: 400 18px / 43px $OpenSans;
 					@include transition;
+
+					.fa {
+						float: right;
+						margin: 15px 15px 0 0;
+					}
 
 					&:hover {
 						color: #fff;
@@ -61,24 +68,44 @@ header {
 					background: #ea5904;
 				}
 			}
-			.language-item {
-				a {
-					display: inline-block;
-					width: 28px;
-					height: 25px;
-					padding: 3px 5px;
-					color: black;
-					font: 400 16px / 22px $OpenSans;
-					text-transform: uppercase;
-					&:first-of-type {
-						margin-left: 20px;
+			.toggle-submenu {
+				display: none;
+				li {
+					border-bottom: 1px solid #fff;
+
+					a {
+						padding-left: 45px;
+						&:hover {
+							color: #fff;
+							background: #ea5904;
+						}
+					}
+					a.submenu-item-active {
+						color: #fff;
+						background: #ea5904;
+					}
+
+					&:last-child {
+						border: inherit;
 					}
 				}
-				a.active-lenguage {
-					background: #ea5904;
-				}
-				span {
-					color: #000;
+			}
+			.toggle-active {
+				display: block;
+			}
+			.suchprofile-btn {
+				a {
+					display: block;
+					width: 138px;
+					height: 49px;
+					color: white;
+					padding: 0;
+					margin: 20px auto;
+					font: 400 18px / 49px $OpenSans;
+					text-align: center;
+					text-transform: uppercase;
+					background-color: #ffba62;
+					border-radius: 10px;
 				}
 			}
 		}
@@ -117,7 +144,7 @@ header {
 		}
 		.hidden-menu-ticker:checked ~ .hidden-menu {
 			left: -15px;
-			top: 52px;
+			top: 53px;
 			overflow: hidden;
 			margin: 0;
 			z-index: 9999;
@@ -162,7 +189,7 @@ header {
 		clear:none;
 		float: right;
 		position: absolute;
-		top: 52px;
+		top: 53px;
 		right: 0;
 		z-index: 100;
 		@include transition;

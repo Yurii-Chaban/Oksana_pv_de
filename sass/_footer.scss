@@ -1,7 +1,7 @@
 footer {
 	@include site-container;
 	padding: 25px 0 23px;
-	background-color: #f39910;
+	background-color: #ffba62;
 
 	.form-block {
 		.form-title {
@@ -112,10 +112,10 @@ footer {
 		margin: 22px 0 0;
 		text-align: center;
 		@include border-box;
-		border-top: 2px solid #ffba62;
+		border-top: 2px solid  #dc8713;
 
 		.copyright-sign {
-			margin: 15px auto 22px;
+			margin: 15px auto 0;
 			color: #000;
 			font: 400 14px / 17px $OpenSans;
 
