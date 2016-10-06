@@ -1,0 +1,862 @@
+@media (min-width: 480px) {
+	.blog-more-page {
+		.blog-more-content {
+			.mobile-slider {
+				.swiper-container-mobile {
+					.swiper-slide {
+						img {
+							max-width: 100%;
+						}
+					}
+				}
+			}
+		}
+	}
+	// FOR FILL PAGE 
+	.fill-page {
+		.fill-content {
+			.form-wrapper {
+				#fill-form {
+					.fot-birthday {
+						.ui.compact.selection.dropdown {
+							width: 32.5%;
+							margin: auto;
+						}
+						.ui.compact.selection.dropdown.birthday-month {
+							width: 32.5%;
+							margin: auto;
+						}
+					}
+					.for-question-circle {
+						.question-circle {
+							.lang-popup {
+								top: 22px;
+								left: 0;
+								transform: inherit;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (min-width: 768px) {
+
+	// FOR HOME PAGE
+	.page-slider {
+		.swiper-container-home-page {
+			height: 485px;
+
+			.swiper-slide {
+				.slider-title {
+					width: auto;
+					text-align: left;
+					top: 287px;
+					left: 50%;
+					transform: translateX(-50%);
+					a {
+						font-size: 35px;
+						line-height: 40px;
+					}
+				}
+			}
+
+			.swiper-pagination-bullets {
+				display: block;
+				bottom: 20px;
+				right: 10px;
+
+				.swiper-pagination-bullet {
+					width: 17px;
+					height: 17px;
+					margin: 0 2px;
+					background-color: #fca013;
+					border: 2px solid #fca013;
+					opacity: 1;
+				}
+				.swiper-pagination-bullet-active {
+					background-color: #000;
+					border-color: #000;
+				}
+			}
+		}
+	}
+
+	.home-about {
+		.section-title {
+			&:after {
+				width: 550px;
+			}
+		}
+	}
+
+	.girls-reviews {
+		.section-title {
+			&:after {
+				width: 550px;
+			}
+		}
+		.girls-reviews-list {
+			margin: 40px auto;
+			padding: 0 0 50px;
+
+			display: -webkit-box;
+			display: -ms-flexbox;
+			-webkit-flex-wrap: wrap;
+			flex-wrap: wrap;
+			display: -webkit-flex;
+			display: flex;
+			-ms-flex-pack: space-around;
+			-webkit-justify-content: space-between;
+			justify-content: space-between;
+
+			li {
+				margin: 0 auto;
+			}
+
+			&:after {
+				width: 550px;
+			}
+		}
+	}
+
+	.fill-section {
+		padding: 0 0 42px 0;
+		.section-img-wrapper {
+			height: 410px;
+			max-width: 972px;
+			max-height: 410px;
+			margin: 0 auto;
+			text-align: center;
+
+			#border-block {
+				width: 300px;
+				bottom: 120px;
+				border-bottom: 120px solid rgba(246, 154, 16, 0.6);
+
+				a {
+					font-size: 32px;
+					line-height: 38px;
+				}
+			}
+		}
+	}
+	// FOR ABOUT US PAGE
+	.about-page {
+		.about-content {
+			
+			.section-title {
+				margin: 0 auto 30px;
+			}
+
+			.img-container {
+				float: left;
+				margin: 0 15px 5px 0;
+			}
+		}
+	}
+	// FOR SERVICES PAGE
+	.services-page {
+		.services-content {
+			
+			.section-title {
+				margin: 0 auto 30px;
+			}
+
+			.img-container {
+				float: left;
+				margin: 0 15px 5px 0;
+			}
+		}
+	}
+	// FOR REVIEWS PAGE
+	.reviews-page {
+		.reviews-content {
+			.reviews-list {
+				li {
+					overflow: hidden;
+					clear: both;
+					.reviews-img-container {
+						float: left;
+						margin: 0 15px 0 0;
+					}
+
+					.overflow-block {
+						overflow: hidden;
+					}
+
+					.person-name {
+						margin: 0 0 10px;
+					}
+					.post-content {
+						margin: 15px auto 0;
+						font-size: 16px;
+						span {
+							display: inline;
+						}
+					}
+				}
+			}
+		}
+	}
+	// FOR BLOG PAGE
+	.blog-page {
+		.blog-content {
+			.blog-list {
+				li {
+					overflow: hidden;
+					clear: both;
+					.blog-img-container {
+						float: left;
+						margin: 0 15px 0 0;
+					}
+
+					.overflow-block {
+						overflow: hidden;
+					}
+
+					.post-title {
+						margin: 0 0 10px;
+					}
+					.post-content {
+						margin: 15px auto 0;
+						font-size: 16px;
+						span {
+							display: inline;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	// FOR CONTACT PAGE
+	.contact-page {
+		.contact-content {
+			.contacts-list {
+				display: -webkit-box;
+				display: -ms-flexbox;
+				-webkit-flex-wrap: wrap;
+				flex-wrap: wrap;
+				display: -webkit-flex;
+				display: flex;
+				-ms-flex-pack: space-around;
+				-webkit-justify-content: space-between;
+				justify-content: space-between;
+
+				li {
+					margin: 20px auto 30px;
+				}
+			}
+
+			.feedback-form {
+				max-width: 510px;
+				margin: 30px auto;
+
+				#feedback-form {
+					.row {
+						overflow: hidden;
+						clear: both;
+						label {
+							float: left;
+						}
+						#form-name,
+						#form-email,
+						#form-phone,
+						#form-message {
+							float: right;
+							width: 70%;
+						}
+					}
+				}
+			}
+		}
+	}
+	// FOR FILL PAGE
+	.fill-page {
+		.fill-content {
+			.wrap-welcome {
+				.wrap-word {
+					span {
+						display: inline;
+					}
+				}
+			}
+			.form-wrapper {
+				#fill-form {
+					.for-name,
+					.for-surname {
+						clear: both;
+						min-height: 36px;
+						label {
+							width: 47%;
+							float: left;
+						}
+						input {
+							width: 53%;
+							float: right;
+						}
+					}
+					.fot-birthday,
+					.for-country,
+					.for-city,
+					.for-region,
+					.for-town,
+					.for-address,
+					.for-nationality,
+					.for-email,
+					.for-phone,
+					.for-family-status,
+					.for-children,
+					.for-future-children,
+					.for-growth,
+					.for-body-type,
+					.for-weight,
+					.for-hair-color,
+					.for-eyes-color,
+					.for-character-traits,
+					.for-attitude-towards-smoking,
+					.for-worship,
+					.for-education,
+					.for-currently-work,
+					.for-question-circle,
+					.for-girl-interesting,
+					.for-zodiac,
+					.for-about-yourself,
+					.for-man-age,
+					.for-wishes-to-partner,
+					.for-upload-picture,
+					.for-upload-ather	 {
+						clear: both;
+						min-height: 36px;
+						label,
+						.styling-item,
+						.interesting-title {
+							width: 47%;
+							float: left;
+						}
+						.grouping-container,
+						.country-select,
+						.select-city,
+						#region,
+						#city_willage_town,
+						#address,
+						#nationality,
+						#email,
+						#phone,
+						#family-status,
+						#children ,
+						#future-children,
+						#growth,
+						#body-type,
+						#weight,
+						#hair-color,
+						#eyes-color,
+						.character-traits,
+						#attitude-towards-smoking,
+						#worship,
+						#education,
+						#currently-work,
+						.girlLangList,
+						.girl-interesting-block,
+						#zodiac-sign,
+						#about-yourself,
+						.age-container,
+						#wishes-to-partner,
+						.btn-container {
+							float: right;
+							width: 53%;
+						}
+						#upload-btn {
+							width: 281px;
+							margin: 0;
+						}
+						#upload-ather-btn {
+							width: 363px;
+							height: 39px;
+							margin: 0;
+						}
+
+						.character-traits,
+						.girl-interesting-block {
+							.left,
+							.left-block,
+							.right,
+							.right-block {
+								width: 50%;
+								li {
+									label {
+										font-size: 15px;
+										line-height: 18px;
+									}
+								}
+							}
+							.left,
+							.left-block {
+								float: left;
+							}
+							.right,
+							.right-block {
+								float: right;
+							}
+						}
+					}
+					.for-about-yourself,
+					.for-wishes-to-partner {
+						min-height: 130px;
+					}
+					.for-email {
+						label[for="email"] {
+							span {
+								display: inline;
+							}
+						}
+					}
+					.for-character-traits,
+					.for-girl-interesting {
+						min-height: 1035px;
+						li {
+							clear: both;
+							overflow: hidden;
+							input[type="checkbox"] {
+								float: left;
+								margin: 3px 3px 0 0;
+							}
+						}
+					}
+					.for-girl-interesting {
+						min-height: 560px;
+					}
+					.for-question-circle {
+						min-height: 350px;
+
+						.girlLangList {
+							li {
+								clear: both;
+								overflow: hidden;
+								input[type="checkbox"] {
+									float: left;
+									margin: 5px 3px 0 0;
+								}
+								label[for="english"],
+								label[for="germany"],
+								label[for="french"],
+								label[for="italian"],
+								label[for="spanish"],
+								label[for="russian"] {
+									float: left;
+									width: auto;
+								}
+								.radio-container {
+									float: right;
+								}
+							}
+						}
+					}
+					.for-agree {
+						overflow: hidden;
+						clear: both;
+						margin: 0 auto;
+						text-align: center;
+
+						#agreement {
+							display: inline-block;
+							float: inherit;
+						}
+
+						label[for="agreement"] {
+							float: inherit;
+							display: inline-block;
+							width: 431px;
+							height: 26px;
+							margin: 13px 0 0;
+							background-color: #f29912;
+							border: 1px solid white;
+							span {
+								margin-top: 4px;
+							}
+						}
+					}
+					#submit-girl-form {
+						float: inherit;
+						margin: 20px auto 30px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (min-width: 1024px) {
+
+	.direction {
+		display: none;
+	}
+
+
+	header {
+		overflow: hidden;
+		max-height: 110px;
+		padding: 11px 0 0;
+		.dropdovn-menu-mobile,
+		.call-us-block {
+			display: none;
+		}
+
+		.block-logo {
+			float: left;
+
+			.logo {
+				max-width: 200px;
+				max-height: 100%;
+				padding: 5px;
+			}
+		}
+
+		.lenguage-block {
+			display: block;
+			float: right;
+			margin: 10px 0 0;
+
+			#lenguage-list {
+				@include border-box;
+
+				li {
+					display: block;
+					width: 56px;
+					height: 35px;
+					float: left;
+					text-align: center;
+
+					a {
+						display: block;
+						width: 100%;
+						height: 100%;
+						color: black;
+						font: 400 12px / 35px $OpenSans;
+						text-transform: uppercase;
+						border: 1px solid rgba(0, 0, 0, 0);
+						@include transition;
+
+						&:hover {
+							color: #d72828;
+							border-color: #d72828;
+						}
+					}
+					a.lenguage-item-active {
+						color: #d72828;
+						border-color: #d72828;
+					}
+				}
+			}
+		}
+
+		.main-menu {
+			display: block;
+			height: 43px;
+			line-height: 43px;
+			width: 100%;
+			overflow: hidden;
+			background-image: linear-gradient(to top, white 0%, #ffba62 0%, #ef9710 0%, #fda115 100%);
+
+			.list-menu {
+				@include border-box;
+
+				li {
+					display: block;
+					float: left;
+					margin: 0 10px;
+					padding: 0 17px 0 0;
+					border-right: 1px solid #f0e9e0;
+
+					&:first-child {
+						margin-left: 0;
+					}
+
+					&:last-child {
+						border: none;
+					}
+
+					a {
+						display: block;
+						width: 100%;
+						height: 100%;
+						color: black;
+						font: 400 16px / 43px $OpenSans;
+
+						&:hover {
+							text-decoration: underline;
+						}
+					}
+					a.desctop-menu-active {
+						text-decoration: underline;
+					}
+				}
+			}
+		}
+
+	}
+
+// FOR HOME PAGE
+.page-slider {
+	.swiper-container-home-page {
+		.swiper-slide {
+			.opacity-block {
+				opacity: 0.90;
+			}
+			.slider-title {
+				left: 25%;
+				transform: translateX(-25%);
+			}
+		}
+	}
+}
+.home-about {
+	.home-about-description {
+		.visible-description {
+			display: inline;
+		}
+	}
+}
+
+.about-page,
+.services-page,
+.reviews-page,
+.blog-page,
+.blog-more-page,
+.contact-page,
+.faq-page,
+.fill-page {
+	.about-content,
+	.services-content,
+	.reviews-content,
+	.blog-content,
+	.blog-more-content,
+	.contact-content,
+	.faq-content,
+	.fill-content {
+		.section-title {
+			&:after {
+				width: 550px;
+			}
+		}
+	}
+}
+.fill-page {
+	.fill-content {
+		.wrap-welcome {
+			&:after {
+				width: 550px;
+			}
+		}
+	}
+}
+.blog-page {
+	.blog-content {
+		.blog-list {
+			li {
+				&:after {
+					width: 550px;
+				}
+			}
+		}
+	}
+}
+
+// FOR REVIEWS PAGE
+.reviews-page {
+	.reviews-content {
+		.reviews-list {
+			li {
+				&:after {
+					width: 550px;
+				}
+			}
+		}
+	}
+}
+
+// FOR BLOG MORE PAGE 
+.blog-more-page {
+	.blog-more-content {
+
+		.section-title {
+			display: none;
+		}
+
+		.blog-more-img-container-more {
+			float: left;
+			margin: 0 20px 10px 0;
+		}
+
+		.post-title-more {
+			margin: 0 auto 12px;
+		}
+
+		.post-content-more {
+			margin: 15px auto 0;
+
+			&:last-of-type {
+				margin-bottom: 30px;
+			}
+			span {
+				display: inline;
+			}
+		}
+
+		.mobile-slider {
+			display: none;
+		}
+		.desctop-slider {
+			display: block;
+			.swiper-container-desctop {
+				width: 100%;
+				height: 100%;
+				overflow: hidden;
+				position: relative;
+
+				.swiper-slide {
+					text-align: center;
+					font-size: 18px;
+					background: #fff;
+					/* Center slide text vertically */
+					display: -webkit-box;
+					display: -ms-flexbox;
+					display: -webkit-flex;
+					display: flex;
+					-webkit-box-pack: center;
+					-ms-flex-pack: center;
+					-webkit-justify-content: center;
+					justify-content: center;
+					-webkit-box-align: center;
+					-ms-flex-align: center;
+					-webkit-align-items: center;
+					align-items: center;
+
+					img {
+						max-width: 90%;
+					}
+				}
+
+				.swiper-button-next, .swiper-button-prev {
+					width: 20px;
+					height: 30px;
+				}
+
+				.swiper-button-prev {
+					background-image: none;
+					background: url('../images/prev-btn.png') no-repeat;
+				}
+				.swiper-button-next {
+					background-image: none;
+					background: url('../images/next-btn.png') no-repeat;
+				}
+			}
+		}
+		.videoWrapper {
+			padding-bottom: 47.25%;
+		}
+	}
+}
+
+// FOR CONTACT PAGE
+.contact-page {
+	.contact-content {
+		.contacts-list {
+			&:after {
+				width: 550px;
+			}
+		}
+	}
+}
+	// FOOTER
+
+	footer {
+		.footer-content {
+			overflow: hidden;
+		}
+		.form-block {
+			max-width: 390px;
+			float: right;
+
+			#contact-form {
+				#name,
+				#email {
+					width: 48%;
+				}
+
+				#name {
+					float: left;
+				}
+				#email {
+					float: right;
+				}
+			}
+		}
+
+		.social-block {
+			float: right;
+			clear: inherit;
+			margin: 0;
+			min-width: 150px;
+			overflow: hidden;
+
+			.social-list {
+				float: left;
+				@include border-box;
+				li {
+					display: block;
+					margin: 15px auto;
+
+					a {
+						span {
+							font-size: 20px;
+						}
+					}
+				}
+			}
+		}
+		.phone-block {
+			display: none;
+		}
+
+		.footer-menu {
+			display: block;
+			float: left;
+			max-width: 385px;
+			overflow: hidden;
+
+			.menu-list {
+				@include border-box;
+				li {
+					text-align: left;
+					display: block;
+					float: left;
+					width: 49%;
+					margin: 5px 0;
+					a {
+						color: black;
+						font: 400 15px / 20px $OpenSans;
+
+						&:hover {
+							text-decoration: underline;
+						}
+					}
+					a.footer-menu-active {
+						text-decoration: underline;
+					}
+				}
+			}
+		}
+		.copyright {
+			.term-and-privacy {
+				a {
+					display: inline-block;
+					margin: 0 10px;
+				}
+			}
+		}
+	}
+}
