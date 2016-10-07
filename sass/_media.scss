@@ -38,6 +38,12 @@
 
 @media (min-width: 768px) {
 
+	@mixin section-title {
+		&:after {
+			width: 550px;
+		}
+	}
+
 	.slider-section {
 		.mobile-slider {
 			display: none;

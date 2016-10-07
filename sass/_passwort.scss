@@ -1,0 +1,46 @@
+.passwort-section {
+	padding: 20px 0;
+	.section-title {
+		@include section-title;
+	}
+
+	.passwort-form {
+		max-width: 550px;
+		width: 100%;
+		margin: 0 auto;
+		@include border-box;
+
+		.row {
+			margin: 20px auto;
+			label {
+				display: block;
+				margin: 0 0 12px 11px;
+				color: black;
+				font: 400 18px / 22px $OpenSans;
+			}
+			#passwort,
+			#passwort-bestatigen {
+				width: 100%;
+				@include border-box;
+				height: 36px;
+				padding: 0 0 0 10px;
+				color: black;
+				font: 400 18px / 36px $OpenSans;
+				border: 1px solid rgba(15, 16, 16, 0.36);
+				outline: inherit;
+			}
+		}
+		#actualisieren-btn{
+			display: block;
+			width: 290px;
+			height: 33px;
+			margin: 25px auto;
+			color: white;
+			font: 400 18px / 33px $OpenSans;
+			text-transform: uppercase;
+			border: inherit;
+			background-color: #f39910;
+			cursor: pointer;
+		}
+	}
+}

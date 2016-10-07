@@ -79,7 +79,7 @@ $MonotypeCorsiva: 'MonotypeCorsiva', sans-serif;
 }
 @mixin direction {
 	@include site-container;
-	padding: 10px 0;
+	padding: 8px 0;
 	background-color: #f19811;
 	.arrow-back {
 		float: left;
@@ -88,7 +88,6 @@ $MonotypeCorsiva: 'MonotypeCorsiva', sans-serif;
 		margin: 0 auto;
 		text-align: center;
 		a {
-			color: #069df1;
 			color: white;
 			font: 400 15px / 20px $OpenSans;
 			text-transform: uppercase;
@@ -146,6 +145,12 @@ $MonotypeCorsiva: 'MonotypeCorsiva', sans-serif;
 		opacity: 0.8;
 		background-image: linear-gradient(to right, transparent 0%, #999 40%, #999 60%, transparent 100%);
 	}
+	@media (min-width: 768px) {
+		&:after {
+			width: 550px;
+		}
+	}
+
 }
 
 .wrapper {
@@ -166,5 +171,6 @@ a {
 @import "header.scss";
 @import "footer.scss";
 @import "main-page.scss";
+@import "passwort.scss";
 @import "fill.scss";
 @import "media.scss";
