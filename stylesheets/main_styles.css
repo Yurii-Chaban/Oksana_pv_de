@@ -832,91 +832,19 @@ footer .copyright .term-and-privacy a:hover {
   font-weight: normal;
   font-style: normal;
 }
-/* line 14, ../sass/_fill.scss */
-.fill-page {
-  padding: 20px 0 30px;
+/* line 12, ../sass/_erweiterte-suche.scss */
+.suche-form {
+  padding: 20px 0;
 }
-/* line 19, ../sass/_fill.scss */
-.fill-page .fill-content .section-title {
-  position: relative;
-  margin: 0 auto 17px;
-  padding: 0 0 16px 0;
-  text-align: center;
-  color: black;
-  font: 700 22px/26px "Open Sans", sans-serif;
-  text-transform: uppercase;
-}
-/* line 137, ../sass/main_styles.scss */
-.fill-page .fill-content .section-title:after {
-  position: absolute;
-  content: "";
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: 0;
-  width: 268px;
-  height: 1px;
-  opacity: 0.8;
-  background-image: linear-gradient(to right, transparent 0%, #999 40%, #999 60%, transparent 100%);
-}
-@media (min-width: 768px) {
-  /* line 149, ../sass/main_styles.scss */
-  .fill-page .fill-content .section-title:after {
-    width: 550px;
-  }
-}
-/* line 23, ../sass/_fill.scss */
-.fill-page .fill-content .wrap-welcome {
-  padding: 0 0 23px;
-  position: relative;
-}
-/* line 27, ../sass/_fill.scss */
-.fill-page .fill-content .wrap-welcome:after {
-  position: absolute;
-  content: "";
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: 0;
-  width: 268px;
-  height: 1px;
-  opacity: 0.8;
-  background-image: linear-gradient(to right, transparent 0%, #999 40%, #999 60%, transparent 100%);
-}
-/* line 39, ../sass/_fill.scss */
-.fill-page .fill-content .wrap-welcome .for-girl-sign,
-.fill-page .fill-content .wrap-welcome .wrap-word {
-  color: black;
-  font: 300 18px/22px "Open Sans", sans-serif;
-}
-/* line 45, ../sass/_fill.scss */
-.fill-page .fill-content .wrap-welcome .wrap-word span {
-  display: block;
-}
-/* line 51, ../sass/_fill.scss */
-.fill-page .fill-content .form-wrapper {
-  max-width: 850px;
-  margin: 0 auto;
-}
-/* line 54, ../sass/_fill.scss */
-.fill-page .fill-content .form-wrapper .form-title {
-  margin: 20px auto 26px;
-  color: black;
-  font: 700 18px/24px "Open Sans", sans-serif;
-  text-align: center;
-  text-transform: uppercase;
-}
-/* line 62, ../sass/_fill.scss */
-.fill-page .fill-content .form-wrapper #fill-form {
-  overflow: hidden;
-}
-/* line 65, ../sass/_fill.scss */
-.fill-page .fill-content .form-wrapper #fill-form i.icon.angle.down:before {
+/* line 18, ../sass/_erweiterte-suche.scss */
+.suche-form .form-wrapper #suche-form i.icon.angle.down:before {
   content: "\f107";
   font-family: 'Icon';
   font-size: 30px;
   color: #fff;
 }
-/* line 72, ../sass/_fill.scss */
-.fill-page .fill-content .form-wrapper #fill-form .ui.selection.dropdown > .dropdown.icon {
+/* line 25, ../sass/_erweiterte-suche.scss */
+.suche-form .form-wrapper #suche-form .ui.selection.dropdown > .dropdown.icon {
   cursor: pointer;
   position: absolute;
   background-color: #f29912;
@@ -932,45 +860,45 @@ footer .copyright .term-and-privacy a:hover {
   -webkit-transition: opacity .1s ease;
   transition: opacity .1s ease;
 }
-/* line 89, ../sass/_fill.scss */
-.fill-page .fill-content .form-wrapper #fill-form .ui.selection.dropdown > .dropdown.icon {
+/* line 42, ../sass/_erweiterte-suche.scss */
+.suche-form .form-wrapper #suche-form .ui.selection.dropdown > .dropdown.icon {
   width: 33px;
   height: 36px;
 }
-/* line 93, ../sass/_fill.scss */
-.fill-page .fill-content .form-wrapper #fill-form .ui.selection.dropdown {
+/* line 46, ../sass/_erweiterte-suche.scss */
+.suche-form .form-wrapper #suche-form .ui.selection.dropdown {
   min-height: 36px;
   padding: .5em 2.7em .2em 0.5em;
   border-radius: inherit;
 }
-/* line 97, ../sass/_fill.scss */
-.fill-page .fill-content .form-wrapper #fill-form .ui.selection.dropdown > .text {
+/* line 50, ../sass/_erweiterte-suche.scss */
+.suche-form .form-wrapper #suche-form .ui.selection.dropdown > .text {
   color: black;
   font: 400 18px/20px "Open Sans", sans-serif;
 }
-/* line 102, ../sass/_fill.scss */
-.fill-page .fill-content .form-wrapper #fill-form .selection.dropdown {
+/* line 55, ../sass/_erweiterte-suche.scss */
+.suche-form .form-wrapper #suche-form .selection.dropdown {
   width: 100%;
 }
-/* line 106, ../sass/_fill.scss */
-.fill-page .fill-content .form-wrapper #fill-form label {
+/* line 59, ../sass/_erweiterte-suche.scss */
+.suche-form .form-wrapper #suche-form label {
   display: inline-block;
-  margin: 0 0 8px 0;
+  margin: 0;
   color: black;
   font: 400 18px/22px "Open Sans", sans-serif;
 }
-/* line 113, ../sass/_fill.scss */
-.fill-page .fill-content .form-wrapper #fill-form input,
-.fill-page .fill-content .form-wrapper #fill-form textarea {
+/* line 66, ../sass/_erweiterte-suche.scss */
+.suche-form .form-wrapper #suche-form input,
+.suche-form .form-wrapper #suche-form textarea {
   outline: none;
 }
-/* line 118, ../sass/_fill.scss */
-.fill-page .fill-content .form-wrapper #fill-form textarea {
+/* line 71, ../sass/_erweiterte-suche.scss */
+.suche-form .form-wrapper #suche-form textarea {
   resize: none;
 }
-/* line 122, ../sass/_fill.scss */
-.fill-page .fill-content .form-wrapper #fill-form input {
-  width: 100%;
+/* line 75, ../sass/_erweiterte-suche.scss */
+.suche-form .form-wrapper #suche-form input {
+  width: auto;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
@@ -982,226 +910,120 @@ footer .copyright .term-and-privacy a:hover {
   background: inherit;
   border: 1px solid rgba(15, 16, 16, 0.36);
 }
-/* line 133, ../sass/_fill.scss */
-.fill-page .fill-content .form-wrapper #fill-form input[type="checkbox"],
-.fill-page .fill-content .form-wrapper #fill-form input[type="radio"] {
+/* line 86, ../sass/_erweiterte-suche.scss */
+.suche-form .form-wrapper #suche-form input[type="checkbox"],
+.suche-form .form-wrapper #suche-form input[type="radio"] {
   height: auto;
 }
-/* line 138, ../sass/_fill.scss */
-.fill-page .fill-content .form-wrapper #fill-form .row {
-  margin: 25px auto 0;
+/* line 91, ../sass/_erweiterte-suche.scss */
+.suche-form .form-wrapper #suche-form .row {
+  clear: both;
+  min-height: 80px;
+  margin: 20px auto;
 }
-/* line 140, ../sass/_fill.scss */
-.fill-page .fill-content .form-wrapper #fill-form .row > label {
-  display: block;
-}
-/* line 148, ../sass/_fill.scss */
-.fill-page .fill-content .form-wrapper #fill-form .fot-birthday .ui.dropdown > .text {
+/* line 95, ../sass/_erweiterte-suche.scss */
+.suche-form .form-wrapper #suche-form .row h3 {
+  margin: 0 0 12px 11px;
   color: black;
-  font: 400 13px/18px "Open Sans", sans-serif;
+  font: 700 22px/26px "Open Sans", sans-serif;
 }
-/* line 152, ../sass/_fill.scss */
-.fill-page .fill-content .form-wrapper #fill-form .fot-birthday .ui.compact.selection.dropdown {
-  min-width: 85px;
-  width: 29%;
-  margin: 0 -1px;
+/* line 104, ../sass/_erweiterte-suche.scss */
+.suche-form .form-wrapper #suche-form .for-age .selection.dropdown,
+.suche-form .form-wrapper #suche-form .for-growth .selection.dropdown,
+.suche-form .form-wrapper #suche-form .for-weight .selection.dropdown {
+  width: 45%;
 }
-/* line 158, ../sass/_fill.scss */
-.fill-page .fill-content .form-wrapper #fill-form .fot-birthday .ui.compact.selection.dropdown.birthday-month {
-  min-width: 114px;
-  width: 40%;
+/* line 107, ../sass/_erweiterte-suche.scss */
+.suche-form .form-wrapper #suche-form .for-age .age-from,
+.suche-form .form-wrapper #suche-form .for-age .growth-status-von,
+.suche-form .form-wrapper #suche-form .for-age .weight-status-von,
+.suche-form .form-wrapper #suche-form .for-growth .age-from,
+.suche-form .form-wrapper #suche-form .for-growth .growth-status-von,
+.suche-form .form-wrapper #suche-form .for-growth .weight-status-von,
+.suche-form .form-wrapper #suche-form .for-weight .age-from,
+.suche-form .form-wrapper #suche-form .for-weight .growth-status-von,
+.suche-form .form-wrapper #suche-form .for-weight .weight-status-von {
+  float: left;
 }
-/* line 165, ../sass/_fill.scss */
-.fill-page .fill-content .form-wrapper #fill-form .for-city .select-city {
-  width: 100%;
+/* line 112, ../sass/_erweiterte-suche.scss */
+.suche-form .form-wrapper #suche-form .for-age .age-to,
+.suche-form .form-wrapper #suche-form .for-age .growth-status-bis,
+.suche-form .form-wrapper #suche-form .for-age .weight-status-bis,
+.suche-form .form-wrapper #suche-form .for-growth .age-to,
+.suche-form .form-wrapper #suche-form .for-growth .growth-status-bis,
+.suche-form .form-wrapper #suche-form .for-growth .weight-status-bis,
+.suche-form .form-wrapper #suche-form .for-weight .age-to,
+.suche-form .form-wrapper #suche-form .for-weight .growth-status-bis,
+.suche-form .form-wrapper #suche-form .for-weight .weight-status-bis {
+  float: right;
 }
-/* line 175, ../sass/_fill.scss */
-.fill-page .fill-content .form-wrapper #fill-form .for-email label[for="email"] span {
-  display: none;
-}
-/* line 190, ../sass/_fill.scss */
-.fill-page .fill-content .form-wrapper #fill-form .for-character-traits input[type="checkbox"] {
-  display: inline-block;
-  width: 14px;
-  height: 14px;
-  margin: 0 11px 0 0;
-  border: 1px solid rgba(15, 16, 16, 0.36);
-}
-/* line 199, ../sass/_fill.scss */
-.fill-page .fill-content .form-wrapper #fill-form .for-question-circle .styling-item {
-  display: block;
-  margin: 0 0 20px 0;
-  color: black;
-  font: 400 18px/20px "Open Sans", sans-serif;
-}
-/* line 206, ../sass/_fill.scss */
-.fill-page .fill-content .form-wrapper #fill-form .for-question-circle .question-circle {
-  width: 24px !important;
-  height: 22px !important;
-  background: #F29912;
-  border-radius: 50%;
-  position: relative;
-  display: inline-block;
-  left: 15px;
-  top: 0;
-  text-align: center;
-  color: #FFFFFF;
-  font-size: 18px;
-  line-height: 21px;
-}
-/* line 219, ../sass/_fill.scss */
-.fill-page .fill-content .form-wrapper #fill-form .for-question-circle .question-circle .lang-popup {
-  display: none;
-  position: absolute;
-  padding: 10px;
-  left: 20%;
-  transform: translateX(-80%);
-  z-index: 1;
-  top: 23px;
-  background: #fff;
-  border: 1px solid #F29912;
-  width: 250px;
-  color: #3a3a3a;
-  text-align: left;
-}
-/* line 232, ../sass/_fill.scss */
-.fill-page .fill-content .form-wrapper #fill-form .for-question-circle .question-circle .lang-popup b {
-  font-weight: bold;
-}
-/* line 237, ../sass/_fill.scss */
-.fill-page .fill-content .form-wrapper #fill-form .for-question-circle .question-circle:hover .lang-popup {
-  display: block;
-}
-/* line 243, ../sass/_fill.scss */
-.fill-page .fill-content .form-wrapper #fill-form .for-question-circle .girlLangList li {
-  margin: 5px 0;
-}
-/* line 246, ../sass/_fill.scss */
-.fill-page .fill-content .form-wrapper #fill-form .for-question-circle .girlLangList li input[type="checkbox"] {
-  width: 14px;
-  height: 14px;
-  border: 1px solid rgba(15, 16, 16, 0.36);
-}
-/* line 251, ../sass/_fill.scss */
-.fill-page .fill-content .form-wrapper #fill-form .for-question-circle .girlLangList li .radio-container {
-  margin: 3px 0;
-}
-/* line 253, ../sass/_fill.scss */
-.fill-page .fill-content .form-wrapper #fill-form .for-question-circle .girlLangList li .radio-container div {
-  display: inline-block;
-}
-/* line 255, ../sass/_fill.scss */
-.fill-page .fill-content .form-wrapper #fill-form .for-question-circle .girlLangList li .radio-container div input[type="radio"] {
-  display: inline-block;
-  width: auto;
-}
-/* line 266, ../sass/_fill.scss */
-.fill-page .fill-content .form-wrapper #fill-form .for-girl-interesting .interesting-title {
-  display: block;
-  margin: 0 0 10px 0;
-  color: black;
-  font: 400 18px/20px "Open Sans", sans-serif;
-}
-/* line 272, ../sass/_fill.scss */
-.fill-page .fill-content .form-wrapper #fill-form .for-girl-interesting label {
-  display: inline;
-  margin: 0;
-}
-/* line 276, ../sass/_fill.scss */
-.fill-page .fill-content .form-wrapper #fill-form .for-girl-interesting input[type="checkbox"] {
-  width: 14px;
-  height: 14px;
-  border: 1px solid rgba(15, 16, 16, 0.36);
-}
-/* line 283, ../sass/_fill.scss */
-.fill-page .fill-content .form-wrapper #fill-form .for-about-yourself #about-yourself {
-  width: 100%;
-  height: 123px;
-  padding: 10px 0 0 10px;
-  border: 1px solid rgba(15, 16, 16, 0.36);
-}
-/* line 291, ../sass/_fill.scss */
-.fill-page .fill-content .form-wrapper #fill-form .for-man-age .age-from,
-.fill-page .fill-content .form-wrapper #fill-form .for-man-age .age-to {
-  width: 47%;
-  margin: 0 1%;
-}
-/* line 298, ../sass/_fill.scss */
-.fill-page .fill-content .form-wrapper #fill-form .for-wishes-to-partner #wishes-to-partner {
-  width: 100%;
-  height: 123px;
-  padding: 10px 0 0 10px;
-  border: 1px solid rgba(15, 16, 16, 0.36);
-}
-/* line 306, ../sass/_fill.scss */
-.fill-page .fill-content .form-wrapper #fill-form .for-upload-picture #upload-btn {
-  display: block;
-  height: 39px;
-  margin: 15px auto 30px;
-  font: 400 15px/39px "Open Sans", sans-serif;
-  text-transform: uppercase;
-  color: #fff;
-  background-color: #f29912;
-  text-align: center;
-  border: 1px solid white;
-}
-/* line 319, ../sass/_fill.scss */
-.fill-page .fill-content .form-wrapper #fill-form .for-upload-ather #upload-ather-btn {
-  display: block;
-  height: 55px;
-  margin: 15px auto 30px;
-  background-color: #f29912;
-  text-align: center;
-  border: 1px solid white;
-}
-/* line 326, ../sass/_fill.scss */
-.fill-page .fill-content .form-wrapper #fill-form .for-upload-ather #upload-ather-btn span {
-  display: block;
-  margin-top: 12px;
-  font: 400 15px/17px "Open Sans", sans-serif;
-  text-transform: uppercase;
-  color: #fff;
-}
-/* line 335, ../sass/_fill.scss */
-.fill-page .fill-content .form-wrapper #fill-form .for-agree {
+/* line 118, ../sass/_erweiterte-suche.scss */
+.suche-form .form-wrapper #suche-form .for-language,
+.suche-form .form-wrapper #suche-form .for-zodiack,
+.suche-form .form-wrapper #suche-form .heir-status,
+.suche-form .form-wrapper #suche-form .for-eye-color,
+.suche-form .form-wrapper #suche-form .for-anatomy-type,
+.suche-form .form-wrapper #suche-form .for-children-status {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
   overflow: hidden;
 }
-/* line 337, ../sass/_fill.scss */
-.fill-page .fill-content .form-wrapper #fill-form .for-agree #agreement {
-  display: block;
-  float: left;
-  width: 14px;
-  height: 14px;
-  margin: 20px 15px 0 0;
-  border: 1px solid rgba(15, 16, 16, 0.36);
+/* line 126, ../sass/_erweiterte-suche.scss */
+.suche-form .form-wrapper #suche-form .for-language ul,
+.suche-form .form-wrapper #suche-form .for-zodiack ul,
+.suche-form .form-wrapper #suche-form .heir-status ul,
+.suche-form .form-wrapper #suche-form .for-eye-color ul,
+.suche-form .form-wrapper #suche-form .for-anatomy-type ul,
+.suche-form .form-wrapper #suche-form .for-children-status ul {
+  overflow: hidden;
+  margin: 0 0 0 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
 }
-/* line 345, ../sass/_fill.scss */
-.fill-page .fill-content .form-wrapper #fill-form .for-agree label[for="agreement"] {
-  display: block;
+/* line 130, ../sass/_erweiterte-suche.scss */
+.suche-form .form-wrapper #suche-form .for-language ul li,
+.suche-form .form-wrapper #suche-form .for-zodiack ul li,
+.suche-form .form-wrapper #suche-form .heir-status ul li,
+.suche-form .form-wrapper #suche-form .for-eye-color ul li,
+.suche-form .form-wrapper #suche-form .for-anatomy-type ul li,
+.suche-form .form-wrapper #suche-form .for-children-status ul li {
+  width: 50%;
   float: left;
-  width: 90%;
-  height: 55px;
-  background-color: #f29912;
+  margin: 15px auto;
+}
+/* line 135, ../sass/_erweiterte-suche.scss */
+.suche-form .form-wrapper #suche-form .for-language ul li input[type="checkbox"],
+.suche-form .form-wrapper #suche-form .for-zodiack ul li input[type="checkbox"],
+.suche-form .form-wrapper #suche-form .heir-status ul li input[type="checkbox"],
+.suche-form .form-wrapper #suche-form .for-eye-color ul li input[type="checkbox"],
+.suche-form .form-wrapper #suche-form .for-anatomy-type ul li input[type="checkbox"],
+.suche-form .form-wrapper #suche-form .for-children-status ul li input[type="checkbox"] {
+  float: left;
+  margin: 0 10px 0 0;
+  width: 25px;
+  height: 25px;
+  background-color: #dedede;
+  border: 2px solid #b2b2b2;
+  border-radius: 4px;
+}
+/* line 150, ../sass/_erweiterte-suche.scss */
+.suche-form .form-wrapper #suche-form .for-children-status .children-list li:last-child {
+  width: 100%;
+}
+/* line 156, ../sass/_erweiterte-suche.scss */
+.suche-form .form-wrapper #suche-form #finden-btn {
+  display: block;
+  max-width: 350px;
+  width: 100%;
+  height: 40px;
+  margin: 40px auto 20px;
   text-align: center;
-  border: 1px solid white;
-}
-/* line 353, ../sass/_fill.scss */
-.fill-page .fill-content .form-wrapper #fill-form .for-agree label[for="agreement"] span {
-  display: block;
-  margin-top: 12px;
-  font: 400 15px/17px "Open Sans", sans-serif;
-  text-transform: uppercase;
-  color: #fff;
-}
-/* line 366, ../sass/_fill.scss */
-.fill-page .fill-content .form-wrapper input#submit-girl-form {
-  display: block;
-  float: right;
-  width: 149px;
-  height: 39px;
-  margin: 20px 0 30px;
   color: white;
-  font: 400 18px/39px "Open Sans", sans-serif;
+  font: 400 18px/20px "Open Sans", sans-serif;
   text-transform: uppercase;
   background-color: #f29912;
   border: 1px solid white;

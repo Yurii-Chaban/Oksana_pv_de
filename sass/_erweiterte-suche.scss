@@ -1,0 +1,172 @@
+@font-face {
+	font-family: 'Icon';
+	src: url('../stylesheets/themes/default/assets/fonts/icons.eot') format('eot');
+	src: url('../stylesheets/themes/default/assets/fonts/icons.otf') format('otf');
+	src: url('../stylesheets/themes/default/assets/fonts/icons.svg') format('svg');
+	src: url('../stylesheets/themes/default/assets/fonts/icons.ttf') format('ttf');
+	src: url('../stylesheets/themes/default/assets/fonts/icons.woff') format('woff');
+	src: url('../stylesheets/themes/default/assets/fonts/icons.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+.suche-form {
+	padding: 20px 0;
+
+	.form-wrapper {
+		#suche-form {
+
+			i.icon.angle.down:before {
+				content: "\f107";
+				font-family: 'Icon';
+				font-size: 30px;
+				color: #fff;
+			}
+
+			.ui.selection.dropdown>.dropdown.icon {
+				cursor: pointer;
+				position: absolute;
+				background-color: #f29912;
+				width: auto;
+				height: auto;
+				line-height: 1.2142em;
+				top: .7em;
+				right: 0.7em;
+				z-index: 3;
+				margin: -.78571429em;
+					// padding: .78571429em;
+					padding: 12px 0 0 0;
+					opacity: .8;
+					-webkit-transition: opacity .1s ease;
+					transition: opacity .1s ease;
+				}
+				.ui.selection.dropdown>.dropdown.icon {
+					width: 33px;
+					height: 36px;
+				}
+				.ui.selection.dropdown {
+					min-height: 36px;
+					padding: .5em 2.7em .2em 0.5em;
+					border-radius: inherit;
+					&>.text{
+						color: black;
+						font: 400 18px / 20px $OpenSans;
+					}
+				}
+				.selection.dropdown {
+					width: 100%;
+				}
+
+				label {
+					display: inline-block;
+					margin: 0;
+					color: black;
+					font: 400 18px / 22px $OpenSans;
+				}
+
+				input,
+				textarea {
+					outline: none;
+				}
+
+				textarea {
+					resize: none;
+				}
+
+				input {
+					width: auto;
+					@include border-box;
+					height: 36px;
+					padding: 0 0 0 10px;
+					font: 400 18px / 36px $OpenSans;
+					border: inherit;
+					background: inherit;
+					border: 1px solid rgba(15, 16, 16, 0.36);
+				}
+
+				input[type="checkbox"],
+				input[type="radio"] {
+					height: auto;
+				}
+
+				.row {
+					clear: both;
+					min-height: 80px;
+					margin: 20px auto;
+					h3 {
+						margin: 0 0 12px 11px;
+						color: black;
+						font: 700 22px / 26px $OpenSans;
+					}
+				}
+				.for-age,
+				.for-growth,
+				.for-weight {
+					.selection.dropdown {
+						width: 45%;
+					}
+					.age-from,
+					.growth-status-von,
+					.weight-status-von {
+						float: left;
+					}
+					.age-to,
+					.growth-status-bis,
+					.weight-status-bis {
+						float: right;
+					}
+				}
+				.for-language,
+				.for-zodiack,
+				.heir-status,
+				.for-eye-color,
+				.for-anatomy-type,
+				.for-children-status {
+					@include border-box;
+					overflow: hidden;
+					ul {
+						overflow: hidden;
+						margin: 0 0 0 10px;
+						@include border-box;
+						li {
+							width: 50%;
+							float: left;
+							margin: 15px auto;
+
+							input[type="checkbox"] {
+								float: left;
+								margin: 0 10px 0 0;
+								width: 25px;
+								height: 25px;
+								background-color: #dedede;
+								border: 2px solid #b2b2b2;
+								border-radius: 4px;
+							}
+						}
+					}
+				}
+				.for-children-status {
+					.children-list {
+						li {
+							&:last-child {
+								width: 100%;
+							}
+						}
+					}
+				}
+				#finden-btn{
+					display: block;
+					max-width: 350px;
+					width: 100%;
+					height: 40px;
+					margin: 40px auto 20px;
+					text-align: center;
+					color: white;
+					font: 400 18px /20px $OpenSans;
+					text-transform: uppercase;
+					background-color: #f29912;
+					border: 1px solid white;
+					cursor: pointer;
+				}
+			}
+		}
+	}
