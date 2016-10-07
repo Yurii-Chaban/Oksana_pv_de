@@ -38,6 +38,14 @@
 
 @media (min-width: 768px) {
 
+	header {
+		.block-logo {
+			.logo {
+				max-width: 200px;
+			}
+		}
+	}
+
 	@mixin section-title {
 		&:after {
 			width: 550px;

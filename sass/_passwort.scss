@@ -18,6 +18,7 @@
 				color: black;
 				font: 400 18px / 22px $OpenSans;
 			}
+			#email,
 			#passwort,
 			#passwort-bestatigen {
 				width: 100%;
@@ -30,7 +31,8 @@
 				outline: inherit;
 			}
 		}
-		#actualisieren-btn{
+		#actualisieren-btn,
+		#profile-btn {
 			display: block;
 			width: 290px;
 			height: 33px;
