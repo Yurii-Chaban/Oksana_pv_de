@@ -18,7 +18,7 @@ header {
 			padding: 0;
 			margin: 0;
 			box-sizing: border-box;
-			width: 220px;
+			width: 270px;
 			background-color: #f19811;
 			height: auto;
 			top: 53px;
@@ -74,7 +74,9 @@ header {
 					border-bottom: 1px solid #fff;
 
 					a {
-						padding-left: 45px;
+						min-height: 43px;
+						padding: 7px 0 5px 26px;
+						line-height: 23px;
 						&:hover {
 							color: #fff;
 							background: #ea5904;

@@ -1,14 +1,8 @@
 @media (min-width: 480px) {
-	.blog-more-page {
-		.blog-more-content {
-			.mobile-slider {
-				.swiper-container-mobile {
-					.swiper-slide {
-						img {
-							max-width: 100%;
-						}
-					}
-				}
+	.oksana-section {
+		.video-title {
+			span {
+				display: inline;
 			}
 		}
 	}
@@ -44,80 +38,66 @@
 
 @media (min-width: 768px) {
 
-	// FOR HOME PAGE
-	.page-slider {
-		.swiper-container-home-page {
-			height: 485px;
+	.slider-section {
+		.mobile-slider {
+			display: none;
+		}
+		.desctop-slider {
+			display: block;
+			.swiper-container-desctop {
+				width: 100%;
+				height: 100%;
+				overflow: hidden;
+				position: relative;
 
-			.swiper-slide {
-				.slider-title {
-					width: auto;
-					text-align: left;
-					top: 287px;
-					left: 50%;
-					transform: translateX(-50%);
-					a {
-						font-size: 35px;
-						line-height: 40px;
+				.swiper-slide {
+					text-align: center;
+					font-size: 18px;
+					background: #fff;
+					/* Center slide text vertically */
+					display: -webkit-box;
+					display: -ms-flexbox;
+					display: -webkit-flex;
+					display: flex;
+					-webkit-box-pack: center;
+					-ms-flex-pack: center;
+					-webkit-justify-content: center;
+					justify-content: center;
+					-webkit-box-align: center;
+					-ms-flex-align: center;
+					-webkit-align-items: center;
+					align-items: center;
+
+					img {
+						max-width: 100%;
+					}
+
+					.description-list {
+						@include border-box;
+						text-align: left;
+
+						li {
+							span {
+								color: black;
+								font: 400 18px / 25px $OpenSans;
+							}
+						}
 					}
 				}
-			}
 
-			.swiper-pagination-bullets {
-				display: block;
-				bottom: 20px;
-				right: 10px;
-
-				.swiper-pagination-bullet {
-					width: 17px;
-					height: 17px;
-					margin: 0 2px;
-					background-color: #fca013;
-					border: 2px solid #fca013;
-					opacity: 1;
+				.swiper-button-next, .swiper-button-prev {
+					width: 20px;
+					height: 30px;
 				}
-				.swiper-pagination-bullet-active {
-					background-color: #000;
-					border-color: #000;
+
+				.swiper-button-prev {
+					background-image: none;
+					background: url('../images/prev-btn.png') no-repeat;
 				}
-			}
-		}
-	}
-
-	.home-about {
-		.section-title {
-			&:after {
-				width: 550px;
-			}
-		}
-	}
-
-	.girls-reviews {
-		.section-title {
-			&:after {
-				width: 550px;
-			}
-		}
-		.girls-reviews-list {
-			margin: 40px auto;
-			padding: 0 0 50px;
-
-			display: -webkit-box;
-			display: -ms-flexbox;
-			-webkit-flex-wrap: wrap;
-			flex-wrap: wrap;
-			display: -webkit-flex;
-			display: flex;
-			-ms-flex-pack: space-around;
-			-webkit-justify-content: space-between;
-			justify-content: space-between;
-
-			li {
-				margin: 0 auto;
-			}
-
-			&:after {
-				width: 550px;
+				.swiper-button-next {
+					background-image: none;
+					background: url('../images/next-btn.png') no-repeat;
+				}
 			}
 		}
 	}
@@ -139,137 +119,6 @@
 				a {
 					font-size: 32px;
 					line-height: 38px;
-				}
-			}
-		}
-	}
-	// FOR ABOUT US PAGE
-	.about-page {
-		.about-content {
-			
-			.section-title {
-				margin: 0 auto 30px;
-			}
-
-			.img-container {
-				float: left;
-				margin: 0 15px 5px 0;
-			}
-		}
-	}
-	// FOR SERVICES PAGE
-	.services-page {
-		.services-content {
-			
-			.section-title {
-				margin: 0 auto 30px;
-			}
-
-			.img-container {
-				float: left;
-				margin: 0 15px 5px 0;
-			}
-		}
-	}
-	// FOR REVIEWS PAGE
-	.reviews-page {
-		.reviews-content {
-			.reviews-list {
-				li {
-					overflow: hidden;
-					clear: both;
-					.reviews-img-container {
-						float: left;
-						margin: 0 15px 0 0;
-					}
-
-					.overflow-block {
-						overflow: hidden;
-					}
-
-					.person-name {
-						margin: 0 0 10px;
-					}
-					.post-content {
-						margin: 15px auto 0;
-						font-size: 16px;
-						span {
-							display: inline;
-						}
-					}
-				}
-			}
-		}
-	}
-	// FOR BLOG PAGE
-	.blog-page {
-		.blog-content {
-			.blog-list {
-				li {
-					overflow: hidden;
-					clear: both;
-					.blog-img-container {
-						float: left;
-						margin: 0 15px 0 0;
-					}
-
-					.overflow-block {
-						overflow: hidden;
-					}
-
-					.post-title {
-						margin: 0 0 10px;
-					}
-					.post-content {
-						margin: 15px auto 0;
-						font-size: 16px;
-						span {
-							display: inline;
-						}
-					}
-				}
-			}
-		}
-	}
-
-	// FOR CONTACT PAGE
-	.contact-page {
-		.contact-content {
-			.contacts-list {
-				display: -webkit-box;
-				display: -ms-flexbox;
-				-webkit-flex-wrap: wrap;
-				flex-wrap: wrap;
-				display: -webkit-flex;
-				display: flex;
-				-ms-flex-pack: space-around;
-				-webkit-justify-content: space-between;
-				justify-content: space-between;
-
-				li {
-					margin: 20px auto 30px;
-				}
-			}
-
-			.feedback-form {
-				max-width: 510px;
-				margin: 30px auto;
-
-				#feedback-form {
-					.row {
-						overflow: hidden;
-						clear: both;
-						label {
-							float: left;
-						}
-						#form-name,
-						#form-email,
-						#form-phone,
-						#form-message {
-							float: right;
-							width: 70%;
-						}
-					}
 				}
 			}
 		}

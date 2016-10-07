@@ -115,9 +115,8 @@ $MonotypeCorsiva: 'MonotypeCorsiva', sans-serif;
 	position: relative;
 	padding-bottom: 56.25%; /* 16:9 */
 	height: 0;
-	max-width: 911px;
-	max-height: 469px;
 	overflow: hidden;
+	margin: 0 auto;
 	iframe {
 		position: absolute;
 		top: 0;
@@ -166,5 +165,6 @@ a {
 // include header
 @import "header.scss";
 @import "footer.scss";
+@import "main-page.scss";
 @import "fill.scss";
 @import "media.scss";
