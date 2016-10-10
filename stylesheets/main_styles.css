@@ -1763,6 +1763,73 @@ footer .copyright .term-and-privacy a:hover {
   display: block;
 }
 
+/* line 1, ../sass/_services.scss */
+.services-section {
+  padding: 26px 0 22px;
+  overflow: hidden;
+}
+/* line 5, ../sass/_services.scss */
+.services-section .services-post-list {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 8, ../sass/_services.scss */
+.services-section .services-post-list li {
+  overflow: hidden;
+  display: block;
+  margin: 22px auto 20px;
+}
+/* line 13, ../sass/_services.scss */
+.services-section .services-post-list li .photoWrapper {
+  width: 274px;
+  height: 166px;
+  margin: 0 0 15px;
+  overflow: hidden;
+}
+/* line 19, ../sass/_services.scss */
+.services-section .services-post-list li .photoWrapper img {
+  max-width: 100%;
+  height: auto;
+}
+/* line 24, ../sass/_services.scss */
+.services-section .services-post-list li .price {
+  color: #f19811;
+  font: 600 30px/34px "Open Sans", sans-serif;
+}
+/* line 28, ../sass/_services.scss */
+.services-section .services-post-list li .post-title {
+  margin: 15px 0 20px;
+  color: black;
+  font: 700 18px/22px "Open Sans", sans-serif;
+}
+/* line 33, ../sass/_services.scss */
+.services-section .services-post-list li .post-content {
+  color: #2c2c2c;
+  font: 400 18px/22px "Open Sans", sans-serif;
+}
+/* line 37, ../sass/_services.scss */
+.services-section .services-post-list li .more-btn {
+  margin: 18px 0 0;
+  display: block;
+  float: right;
+  color: #f19811;
+  font: 700 18px/22px "Open Sans", sans-serif;
+}
+/* line 46, ../sass/_services.scss */
+.services-section .section-text-title {
+  clear: both;
+  margin: 20px auto 15px;
+  color: #f19811;
+  font: 700 18px/22px "Open Sans", sans-serif;
+}
+/* line 52, ../sass/_services.scss */
+.services-section .section-test-description {
+  color: #2c2c2c;
+  font: 400 18px/22px "Open Sans", sans-serif;
+}
+
 @media (min-width: 480px) {
   /* line 4, ../sass/_media.scss */
   .oksana-section .video-title span {
@@ -3888,5 +3955,12 @@ footer .copyright .term-and-privacy a:hover {
   .slider-section-profile-girl .desctop-slider-profile-girl .swiper-container-desctop .swiper-button-next {
     background-image: none;
     background: url("../images/next-btn.png") no-repeat;
+  }
+
+  /* line 447, ../sass/_media.scss */
+  .services-section .services-post-list li {
+    display: inline-block;
+    width: 46%;
+    margin: 20px 10px;
   }
 }
