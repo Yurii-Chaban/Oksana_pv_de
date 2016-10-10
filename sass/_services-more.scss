@@ -1,0 +1,70 @@
+.services-more-section {
+	padding: 26px 0 22px;
+	overflow: hidden;
+
+	.services-more-post {
+		@include border-box;
+
+		.item {
+			overflow: hidden;
+			display: block;
+			margin: 22px auto 20px;
+
+			.photoWrapper {
+				width: 274px;
+				height: 166px;
+				margin: 0 0 15px;
+				overflow: hidden;
+
+				img {
+					max-width: 100%;
+					height: auto;
+				}
+			}
+			.price {
+				color: #f19811;
+				font: 600 30px / 34px $OpenSans;
+			}
+			.post-title {
+				margin: 15px 0 20px;
+				color: black;
+				font: 700 18px / 22px $OpenSans;
+			}
+			.post-content {
+				color: #818181;
+				font: 400 18px / 22px $OpenSans;
+			}
+			.suggestions-text {
+				margin: 25px 0 0;
+				color: #f19811;
+				font: 400 16px / 22px $OpenSans;
+				color: #f19811;
+				font-style: italic;
+			}
+		}
+	}
+	.back-btn {
+		display: block;
+		float: right;
+		width: 98px;
+		height: 39px;
+		margin: 24px 0 26px;
+		color: black;
+		font: 700 18px / 24px $OpenSans;
+		text-align: center;
+		text-transform: uppercase;
+		border: 2px solid #cb5b2c;
+		overflow: hidden;
+
+		-webkit-border-top-left-radius: 2px;
+		-webkit-border-bottom-left-radius: 2px;
+		-moz-border-radius-topleft: 2px;
+		-moz-border-radius-bottomleft: 2px;
+		border-top-left-radius: 2px;
+		border-bottom-left-radius: 2px;
+		span {
+			margin: 5px 0 0;
+			display: block;
+		}
+	}
+}

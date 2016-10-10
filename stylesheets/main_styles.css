@@ -1830,6 +1830,86 @@ footer .copyright .term-and-privacy a:hover {
   font: 400 18px/22px "Open Sans", sans-serif;
 }
 
+/* line 1, ../sass/_services-more.scss */
+.services-more-section {
+  padding: 26px 0 22px;
+  overflow: hidden;
+}
+/* line 5, ../sass/_services-more.scss */
+.services-more-section .services-more-post {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 8, ../sass/_services-more.scss */
+.services-more-section .services-more-post .item {
+  overflow: hidden;
+  display: block;
+  margin: 22px auto 20px;
+}
+/* line 13, ../sass/_services-more.scss */
+.services-more-section .services-more-post .item .photoWrapper {
+  width: 274px;
+  height: 166px;
+  margin: 0 0 15px;
+  overflow: hidden;
+}
+/* line 19, ../sass/_services-more.scss */
+.services-more-section .services-more-post .item .photoWrapper img {
+  max-width: 100%;
+  height: auto;
+}
+/* line 24, ../sass/_services-more.scss */
+.services-more-section .services-more-post .item .price {
+  color: #f19811;
+  font: 600 30px/34px "Open Sans", sans-serif;
+}
+/* line 28, ../sass/_services-more.scss */
+.services-more-section .services-more-post .item .post-title {
+  margin: 15px 0 20px;
+  color: black;
+  font: 700 18px/22px "Open Sans", sans-serif;
+}
+/* line 33, ../sass/_services-more.scss */
+.services-more-section .services-more-post .item .post-content {
+  color: #818181;
+  font: 400 18px/22px "Open Sans", sans-serif;
+}
+/* line 37, ../sass/_services-more.scss */
+.services-more-section .services-more-post .item .suggestions-text {
+  margin: 25px 0 0;
+  color: #f19811;
+  font: 400 16px/22px "Open Sans", sans-serif;
+  color: #f19811;
+  font-style: italic;
+}
+/* line 46, ../sass/_services-more.scss */
+.services-more-section .back-btn {
+  display: block;
+  float: right;
+  width: 98px;
+  height: 39px;
+  margin: 24px 0 26px;
+  color: black;
+  font: 700 18px/24px "Open Sans", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  border: 2px solid #cb5b2c;
+  overflow: hidden;
+  -webkit-border-top-left-radius: 2px;
+  -webkit-border-bottom-left-radius: 2px;
+  -moz-border-radius-topleft: 2px;
+  -moz-border-radius-bottomleft: 2px;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+/* line 65, ../sass/_services-more.scss */
+.services-more-section .back-btn span {
+  margin: 5px 0 0;
+  display: block;
+}
+
 @media (min-width: 480px) {
   /* line 4, ../sass/_media.scss */
   .oksana-section .video-title span {
@@ -3962,5 +4042,11 @@ footer .copyright .term-and-privacy a:hover {
     display: inline-block;
     width: 46%;
     margin: 20px 10px;
+  }
+
+  /* line 458, ../sass/_media.scss */
+  .services-more-section .services-more-post .item .photoWrapper {
+    float: left;
+    margin: 0 20px 0 0;
   }
 }
