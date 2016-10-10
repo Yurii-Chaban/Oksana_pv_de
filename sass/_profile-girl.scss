@@ -1,0 +1,227 @@
+.main-profile-girl-section {
+	padding: 20px 0;
+	.mainProfileTopBlock {
+		position: relative;
+		margin: 20px auto;
+		padding: 0 0 16px 0;
+
+		&:after {
+			position: absolute;
+			content: "";
+			left: 50%;
+			transform: translateX(-50%);
+			bottom: 0;
+			width: 268px;
+			height: 1px;
+			opacity: 0.8;
+			background-image: linear-gradient(to right, transparent 0%, #999 40%, #999 60%, transparent 100%);
+		}
+		@media (min-width: 768px) {
+			&:after {
+				width: 550px;
+			}
+		}
+		li {
+			display: inline-block;
+			margin: 5px 10px;
+			span {
+				font: 400 16px / 22px $OpenSans;
+				color: black;
+			}
+			.ather-color {
+				color: #f19811;
+			}
+		}
+	}
+	.main-info-block {
+		overflow: hidden;
+		position: relative;
+		padding: 0 0 16px 0;
+
+		&:after {
+			position: absolute;
+			content: "";
+			left: 50%;
+			transform: translateX(-50%);
+			bottom: 0;
+			width: 268px;
+			height: 1px;
+			opacity: 0.8;
+			background-image: linear-gradient(to right, transparent 0%, #999 40%, #999 60%, transparent 100%);
+		}
+		@media (min-width: 768px) {
+			&:after {
+				width: 550px;
+			}
+		}
+		.profile-girl-photo-wrapper {
+			clear: both;
+			@include border-box;
+			width: 186px;
+			height: 248px;
+			overflow: hidden;
+			margin: 0 auto;
+			text-align: center;
+
+			img {
+				max-width: 100%;
+				height: auto;
+			}
+		}
+		.profile-girl-back-btn,
+		.favorite-list-btn {
+			clear: both;
+			display: block;
+			float: right;
+			text-align: center;
+			color: black;
+			font: 700 18px / 24px $OpenSans;
+			text-transform: uppercase;
+			border: 2px solid #cb5b2c;
+
+			-webkit-border-top-left-radius: 2px;
+			-webkit-border-bottom-left-radius: 2px;
+			-moz-border-radius-topleft: 2px;
+			-moz-border-radius-bottomleft: 2px;
+			border-top-left-radius: 2px;
+			border-bottom-left-radius: 2px;
+		}
+		.profile-girl-back-btn {
+			width: 98px;
+			height: 39px;
+			margin: 25px 0 12px;
+			span {
+				display: block;
+				margin: 5px auto 0;
+			}
+		}
+		.favorite-list-btn {
+			width: 238px;
+			height: 66px;
+			margin: 0 0 22px;
+			span {
+				display: block;
+				margin: 10px auto 0;
+			}
+		}
+		.list-of-characteristics {
+			clear: both;
+			@include border-box;
+
+			li {
+				display: block;
+				margin: 5px 0;
+				color: black;
+				font: 400 18px / 22px $OpenSans;
+				strong {
+					font-weight: 700;
+				}
+			}
+		}
+		.preliminary-list-btn {
+			clear: both;
+			display: block;
+			float: right;
+			width: 216px;
+			height: 44px;
+			margin: 26px 0 10px;
+			text-align: center;
+			color: black;
+			font: 700 18px / 24px $OpenSans;
+			text-transform: uppercase;
+			border: 2px solid #cb5b2c;
+
+			-webkit-border-top-left-radius: 2px;
+			-webkit-border-bottom-left-radius: 2px;
+			-moz-border-radius-topleft: 2px;
+			-moz-border-radius-bottomleft: 2px;
+			border-top-left-radius: 2px;
+			border-bottom-left-radius: 2px;
+		}
+	}
+	.addition-info-block {
+		.addition-info-title {
+			margin: 26px auto 24px;
+			text-align: center;
+			color: black;
+			font: 700 18px / 24px $OpenSans;
+			text-transform: uppercase;
+		}
+		.addition-characteristics-list {
+			li {
+				margin: 20px auto;
+				font: 400 18px / 30px $OpenSans;
+				.additional-ather-title {
+					color: #f19811;
+				}
+				.characteristics {
+					color: black;
+				}
+			}
+		}
+	}
+}
+.slider-section-profile-girl {
+	border-top: 5px solid #ffa429;
+	padding: 17px 0 23px;
+	.mobile-slider-profile-girl {
+		.swiper-container-mobile {
+			width: 100%;
+			height: 100%;
+			overflow: hidden;
+			position: relative;
+
+			.swiper-slide {
+				text-align: center;
+				font-size: 18px;
+				background: #fff;
+				/* Center slide text vertically */
+				display: -webkit-box;
+				display: -ms-flexbox;
+				display: -webkit-flex;
+				display: flex;
+				-webkit-box-pack: center;
+				-ms-flex-pack: center;
+				-webkit-justify-content: center;
+				justify-content: center;
+				-webkit-box-align: center;
+				-ms-flex-align: center;
+				-webkit-align-items: center;
+				align-items: center;
+
+				img {
+					max-width: 100%;
+				}
+
+				.description-list {
+					@include border-box;
+					text-align: left;
+
+					li {
+						span {
+							color: black;
+							font: 400 18px / 25px $OpenSans;
+						}
+					}
+				}
+			}
+
+			.swiper-button-next, .swiper-button-prev {
+				width: 20px;
+				height: 30px;
+			}
+
+			.swiper-button-prev {
+				background-image: none;
+				background: url('../images/prev-btn.png') no-repeat;
+			}
+			.swiper-button-next {
+				background-image: none;
+				background: url('../images/next-btn.png') no-repeat;
+			}
+		}
+	}
+	.desctop-slider-profile-girl {
+		display: none;
+	}
+}

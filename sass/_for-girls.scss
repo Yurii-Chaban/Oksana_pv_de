@@ -1,0 +1,53 @@
+.for-girls-section {
+	padding: 20px 0;
+	overflow: hidden;
+
+	.images-wrapper {
+		@include border-box;
+		max-width: 380px;
+		width: auto;
+		margin: 0;
+		overflow: hidden;
+
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+	}
+
+	.for-girl-title {
+		margin: 13px 0 18px;
+		color: black;
+		font: 600 15px / 20px $OpenSans;
+	}
+
+	p {
+		color: #818181;
+		font: 400 18px / 22px $OpenSans;
+	}
+
+	.back-btn {
+		display: block;
+		float: right;
+		width: 98px;
+		height: 39px;
+		margin: 24px 0 26px;
+		color: black;
+		font: 700 18px / 24px $OpenSans;
+		text-align: center;
+		text-transform: uppercase;
+		border: 2px solid #cb5b2c;
+		overflow: hidden;
+
+		-webkit-border-top-left-radius: 2px;
+		-webkit-border-bottom-left-radius: 2px;
+		-moz-border-radius-topleft: 2px;
+		-moz-border-radius-bottomleft: 2px;
+		border-top-left-radius: 2px;
+		border-bottom-left-radius: 2px;
+		span {
+			margin: 5px 0 0;
+			display: block;
+		}
+	}
+}
