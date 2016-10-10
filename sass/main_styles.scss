@@ -52,28 +52,27 @@ $MonotypeCorsiva: 'MonotypeCorsiva', sans-serif;
 	box-sizing: border-box;
 }
 @mixin site-pagination {
-	.pagination-list {
-		@include border-box;
-		width: 100%;
-		margin: 34px auto 31px;
-		text-align: center;
+	@include border-box;
+	width: 100%;
+	margin: 34px auto 31px;
+	text-align: center;
 
-		li {
-			display: inline-block;
-			margin: 0 3px;
+	li {
+		display: inline-block;
+		margin: 0 3px;
 
-			a {
-				font: 700 18px / 20px $OpenSans;
-				text-transform: uppercase;
-				color: black;
+		a {
+			font: 700 18px / 20px $OpenSans;
+			text-transform: uppercase;
+			color: black;
+			@include transition;
 
-				&:hover {
-					color: #fd9e0e;
-				}
-			}
-			a.pagination-active {
+			&:hover {
 				color: #fd9e0e;
 			}
+		}
+		a.pagination-active {
+			color: #fd9e0e;
 		}
 	}
 }
@@ -177,4 +176,5 @@ a {
 @import "for-girls.scss";
 @import "profile-girl.scss";
 @import "profile-man.scss";
+@import "_Maine-Vorafrage.scss";
 @import "media.scss";

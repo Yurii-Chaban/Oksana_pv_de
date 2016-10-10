@@ -1,0 +1,131 @@
+.meine-voranfrage-section {
+	padding: 20px 0;
+	.ProfileTopBlock {
+		position: relative;
+		margin: 20px auto;
+		padding: 0 0 16px 0;
+
+		&:after {
+			position: absolute;
+			content: "";
+			left: 50%;
+			transform: translateX(-50%);
+			bottom: 0;
+			width: 268px;
+			height: 1px;
+			opacity: 0.8;
+			background-image: linear-gradient(to right, transparent 0%, #999 40%, #999 60%, transparent 100%);
+		}
+		@media (min-width: 768px) {
+			&:after {
+				width: 550px;
+			}
+		}
+		.mainProfileTopBlock {
+			li {
+				display: inline-block;
+				margin: 5px 10px;
+				span {
+					font: 400 16px / 22px $OpenSans;
+					color: black;
+				}
+				.ather-color {
+					color: #f19811;
+				}
+			}
+		}
+		.change-password-btn {
+			display: block;
+			margin: 15px auto 20px;
+			text-align: center;
+			width: 267px;
+			height: 33px;
+			overflow: hidden;
+			color: white;
+			font: 400 18px / 22px $OpenSans;
+			text-transform: uppercase;
+			background-color: #f39910;
+			span {
+				display: block;
+				margin: 5px auto 0;
+			}
+		}
+		.user-status-name {
+			color: black;
+			text-align: center;
+			font: 700 18px / 22px $OpenSans;
+			text-transform: uppercase;
+		}
+	}
+	.info-block {
+		overflow: hidden;
+		.rusult-item {
+			max-width: 177px;
+			overflow: hidden;
+			margin: 24px 20px 35px;
+			float: left;
+
+
+			.profile-man-photo-wrapper {
+				clear: both;
+				@include border-box;
+				width: 177px;
+				height: 257px;
+				overflow: hidden;
+				margin: 0 auto;
+				text-align: center;
+
+				img {
+					max-width: 100%;
+					height: auto;
+				}
+			}
+			.description-list {
+				@include border-box;
+				margin: 10px 0;
+				float: left;
+				width: 80%;
+				li {
+					.item-name,
+					.iten-sign {
+						color: black;
+						font: 400 18px / 25px $OpenSans;
+					}
+				}
+			}
+		}
+		#remove-btn {
+			float: right;
+			margin: 10px 0 0;
+
+			.fa {
+				color: #e18400;
+			}
+		}
+		.pagination-list {
+			clear: both;
+			@include site-pagination;
+		}
+		.page-info {
+			clear: both;
+			color: black;
+			font: 400 19px / 26px $OpenSans;
+		}
+		.preliminary-question-btn {
+			overflow: hidden;
+			display: block;
+			margin: 22px auto 24px;
+			text-align: center;
+			width: 268px;
+			height: 33px;
+			color: white;
+			font: 400 18px / 17px $OpenSans;
+			text-transform: uppercase;
+			background-color: #f39910;
+			span {
+				display: block;
+				margin: 8px 0 0;
+			}
+		}
+	}
+}
