@@ -1343,6 +1343,177 @@ footer .copyright .term-and-privacy a:hover {
   display: none;
 }
 
+/* line 1, ../sass/_profile-man.scss */
+.main-profile-man-section {
+  padding: 20px 0;
+}
+/* line 3, ../sass/_profile-man.scss */
+.main-profile-man-section .ProfileTopBlock {
+  position: relative;
+  margin: 20px auto;
+  padding: 0 0 16px 0;
+}
+/* line 8, ../sass/_profile-man.scss */
+.main-profile-man-section .ProfileTopBlock:after {
+  position: absolute;
+  content: "";
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+  width: 268px;
+  height: 1px;
+  opacity: 0.8;
+  background-image: linear-gradient(to right, transparent 0%, #999 40%, #999 60%, transparent 100%);
+}
+@media (min-width: 768px) {
+  /* line 20, ../sass/_profile-man.scss */
+  .main-profile-man-section .ProfileTopBlock:after {
+    width: 550px;
+  }
+}
+/* line 25, ../sass/_profile-man.scss */
+.main-profile-man-section .ProfileTopBlock .mainProfileTopBlock li {
+  display: inline-block;
+  margin: 5px 10px;
+}
+/* line 28, ../sass/_profile-man.scss */
+.main-profile-man-section .ProfileTopBlock .mainProfileTopBlock li span {
+  font: 400 16px/22px "Open Sans", sans-serif;
+  color: black;
+}
+/* line 32, ../sass/_profile-man.scss */
+.main-profile-man-section .ProfileTopBlock .mainProfileTopBlock li .ather-color {
+  color: #f19811;
+}
+/* line 37, ../sass/_profile-man.scss */
+.main-profile-man-section .ProfileTopBlock .change-password-btn {
+  display: block;
+  margin: 15px auto 20px;
+  text-align: center;
+  width: 267px;
+  height: 33px;
+  overflow: hidden;
+  color: white;
+  font: 400 18px/22px "Open Sans", sans-serif;
+  text-transform: uppercase;
+  background-color: #f39910;
+}
+/* line 48, ../sass/_profile-man.scss */
+.main-profile-man-section .ProfileTopBlock .change-password-btn span {
+  display: block;
+  margin: 5px auto 0;
+}
+/* line 53, ../sass/_profile-man.scss */
+.main-profile-man-section .ProfileTopBlock .man-name {
+  color: black;
+  text-align: center;
+  font: 700 18px/22px "Open Sans", sans-serif;
+  text-transform: uppercase;
+}
+/* line 60, ../sass/_profile-man.scss */
+.main-profile-man-section .main-info-block,
+.main-profile-man-section .partnership-info-block {
+  overflow: hidden;
+  position: relative;
+  padding: 0 0 16px 0;
+}
+/* line 66, ../sass/_profile-man.scss */
+.main-profile-man-section .main-info-block:after,
+.main-profile-man-section .partnership-info-block:after {
+  position: absolute;
+  content: "";
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+  width: 268px;
+  height: 1px;
+  opacity: 0.8;
+  background-image: linear-gradient(to right, transparent 0%, #999 40%, #999 60%, transparent 100%);
+}
+@media (min-width: 768px) {
+  /* line 78, ../sass/_profile-man.scss */
+  .main-profile-man-section .main-info-block:after,
+  .main-profile-man-section .partnership-info-block:after {
+    width: 550px;
+  }
+}
+/* line 82, ../sass/_profile-man.scss */
+.main-profile-man-section .main-info-block .profile-man-photo-wrapper,
+.main-profile-man-section .partnership-info-block .profile-man-photo-wrapper {
+  clear: both;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 186px;
+  height: 248px;
+  overflow: hidden;
+  margin: 0 auto;
+  text-align: center;
+}
+/* line 91, ../sass/_profile-man.scss */
+.main-profile-man-section .main-info-block .profile-man-photo-wrapper img,
+.main-profile-man-section .partnership-info-block .profile-man-photo-wrapper img {
+  max-width: 100%;
+  height: auto;
+}
+/* line 97, ../sass/_profile-man.scss */
+.main-profile-man-section .main-info-block .info-list-main-title,
+.main-profile-man-section .partnership-info-block .info-list-main-title {
+  margin: 20px auto 17px;
+  text-align: center;
+  color: #f19811;
+  font: 700 18px/24px "Open Sans", sans-serif;
+  text-transform: uppercase;
+}
+/* line 104, ../sass/_profile-man.scss */
+.main-profile-man-section .main-info-block .list-of-characteristics,
+.main-profile-man-section .partnership-info-block .list-of-characteristics {
+  clear: both;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 108, ../sass/_profile-man.scss */
+.main-profile-man-section .main-info-block .list-of-characteristics li,
+.main-profile-man-section .partnership-info-block .list-of-characteristics li {
+  display: block;
+  margin: 5px 0;
+  color: black;
+  font: 400 18px/22px "Open Sans", sans-serif;
+}
+/* line 113, ../sass/_profile-man.scss */
+.main-profile-man-section .main-info-block .list-of-characteristics li strong,
+.main-profile-man-section .partnership-info-block .list-of-characteristics li strong {
+  font-weight: 700;
+}
+/* line 118, ../sass/_profile-man.scss */
+.main-profile-man-section .main-info-block .preliminary-list-btn,
+.main-profile-man-section .partnership-info-block .preliminary-list-btn {
+  clear: both;
+  display: block;
+  float: right;
+  width: 216px;
+  height: 44px;
+  margin: 26px 0 10px;
+  text-align: center;
+  color: black;
+  font: 700 18px/24px "Open Sans", sans-serif;
+  text-transform: uppercase;
+  border: 2px solid #cb5b2c;
+  -webkit-border-top-left-radius: 2px;
+  -webkit-border-bottom-left-radius: 2px;
+  -moz-border-radius-topleft: 2px;
+  -moz-border-radius-bottomleft: 2px;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+/* line 140, ../sass/_profile-man.scss */
+.main-profile-man-section .partnership-info-block:after {
+  content: none;
+}
+
 @media (min-width: 480px) {
   /* line 4, ../sass/_media.scss */
   .oksana-section .video-title span {

@@ -1,0 +1,144 @@
+.main-profile-man-section {
+	padding: 20px 0;
+	.ProfileTopBlock {
+		position: relative;
+		margin: 20px auto;
+		padding: 0 0 16px 0;
+
+		&:after {
+			position: absolute;
+			content: "";
+			left: 50%;
+			transform: translateX(-50%);
+			bottom: 0;
+			width: 268px;
+			height: 1px;
+			opacity: 0.8;
+			background-image: linear-gradient(to right, transparent 0%, #999 40%, #999 60%, transparent 100%);
+		}
+		@media (min-width: 768px) {
+			&:after {
+				width: 550px;
+			}
+		}
+		.mainProfileTopBlock {
+			li {
+				display: inline-block;
+				margin: 5px 10px;
+				span {
+					font: 400 16px / 22px $OpenSans;
+					color: black;
+				}
+				.ather-color {
+					color: #f19811;
+				}
+			}
+		}
+		.change-password-btn {
+			display: block;
+			margin: 15px auto 20px;
+			text-align: center;
+			width: 267px;
+			height: 33px;
+			overflow: hidden;
+			color: white;
+			font: 400 18px / 22px $OpenSans;
+			text-transform: uppercase;
+			background-color: #f39910;
+			span {
+				display: block;
+				margin: 5px auto 0;
+			}
+		}
+		.man-name {
+			color: black;
+			text-align: center;
+			font: 700 18px / 22px $OpenSans;
+			text-transform: uppercase;
+		}
+	}
+	.main-info-block,
+	.partnership-info-block {
+		overflow: hidden;
+		position: relative;
+		padding: 0 0 16px 0;
+
+		&:after {
+			position: absolute;
+			content: "";
+			left: 50%;
+			transform: translateX(-50%);
+			bottom: 0;
+			width: 268px;
+			height: 1px;
+			opacity: 0.8;
+			background-image: linear-gradient(to right, transparent 0%, #999 40%, #999 60%, transparent 100%);
+		}
+		@media (min-width: 768px) {
+			&:after {
+				width: 550px;
+			}
+		}
+		.profile-man-photo-wrapper {
+			clear: both;
+			@include border-box;
+			width: 186px;
+			height: 248px;
+			overflow: hidden;
+			margin: 0 auto;
+			text-align: center;
+
+			img {
+				max-width: 100%;
+				height: auto;
+			}
+		}
+
+		.info-list-main-title {
+			margin: 20px auto 17px;
+			text-align: center;
+			color: #f19811;
+			font: 700 18px / 24px $OpenSans;
+			text-transform: uppercase;
+		}
+		.list-of-characteristics {
+			clear: both;
+			@include border-box;
+
+			li {
+				display: block;
+				margin: 5px 0;
+				color: black;
+				font: 400 18px / 22px $OpenSans;
+				strong {
+					font-weight: 700;
+				}
+			}
+		}
+		.preliminary-list-btn {
+			clear: both;
+			display: block;
+			float: right;
+			width: 216px;
+			height: 44px;
+			margin: 26px 0 10px;
+			text-align: center;
+			color: black;
+			font: 700 18px / 24px $OpenSans;
+			text-transform: uppercase;
+			border: 2px solid #cb5b2c;
+
+			-webkit-border-top-left-radius: 2px;
+			-webkit-border-bottom-left-radius: 2px;
+			-moz-border-radius-topleft: 2px;
+			-moz-border-radius-bottomleft: 2px;
+			border-top-left-radius: 2px;
+			border-bottom-left-radius: 2px;
+		}
+	}
+	.partnership-info-block {
+		&:after {
+			content: none;
+		}
+	}
+}
