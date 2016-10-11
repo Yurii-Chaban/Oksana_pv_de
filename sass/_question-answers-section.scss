@@ -1,0 +1,36 @@
+.question-answers-section {
+	padding: 20px 0;
+	overflow: hidden;
+
+	.question-answers-item {
+		max-width: 1010px;
+		overflow: hidden;
+		margin: 0 auto;
+		padding: 24px 0 26px;
+		border-bottom: 5px solid #ffa429;
+
+		.article-title {
+			color: black;
+			font: 600 18px / 22px $OpenSans;
+		}
+
+		.item {
+			margin: 25px auto 0;
+			padding: 17px 0 19px 8px;
+			border: 1px solid #959595;
+
+			.title {
+				margin: 0 0 15px 0;
+				color: #cb7a00;
+				font: 600 22px / 24px $OpenSans;
+			}
+			.content {
+				color: #818181;
+				font: 300 18px / 22px $OpenSans;
+			}
+		}
+	}
+	.pagination-list {
+		@include site-pagination;
+	}
+}
