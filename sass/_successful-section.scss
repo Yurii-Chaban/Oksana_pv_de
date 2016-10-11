@@ -1,0 +1,65 @@
+.successful-section {
+	padding: 20px 0;
+	overflow: hidden;
+	.successful-title {
+		color: #f19811;
+		font: 600 22px / 28px $OpenSans;
+	}
+	.thin-text {
+		margin: 21px 0 0;
+		color: #010101;
+		font: 400 15px / 20px $OpenSans;
+	}
+	.sub-title {
+		margin: 24px 0 21px;
+		color: black;
+		font: 600 15px / 20px $OpenSans;
+	}
+	.article-list {
+		@include border-box;
+		overflow: hidden;
+		li {
+			position: relative;
+			padding-left: 5px;
+			color: black;
+			font: 400 15px / 20px $OpenSans;
+
+			&:before {
+				position: absolute;
+				content: "";
+				top: 8px;
+				left: 0;				
+				width: 4px;
+				height: 4px;
+				background-color: #000;
+				-webkit-border-radius: 100%;
+				-moz-border-radius: 100%;
+				border-radius: 100%;
+			}
+		}
+	}
+	.back-btn {
+		display: block;
+		float: right;
+		width: 98px;
+		height: 39px;
+		margin: 24px 0 26px;
+		color: black;
+		font: 700 18px / 24px $OpenSans;
+		text-align: center;
+		text-transform: uppercase;
+		border: 2px solid #cb5b2c;
+		overflow: hidden;
+
+		-webkit-border-top-left-radius: 2px;
+		-webkit-border-bottom-left-radius: 2px;
+		-moz-border-radius-topleft: 2px;
+		-moz-border-radius-bottomleft: 2px;
+		border-top-left-radius: 2px;
+		border-bottom-left-radius: 2px;
+		span {
+			margin: 5px 0 0;
+			display: block;
+		}
+	}
+}

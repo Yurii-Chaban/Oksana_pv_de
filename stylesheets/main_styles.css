@@ -2212,6 +2212,82 @@ footer .copyright .term-and-privacy a:hover {
   color: #fd9e0e;
 }
 
+/* line 1, ../sass/_successful-section.scss */
+.successful-section {
+  padding: 20px 0;
+  overflow: hidden;
+}
+/* line 4, ../sass/_successful-section.scss */
+.successful-section .successful-title {
+  color: #f19811;
+  font: 600 22px/28px "Open Sans", sans-serif;
+}
+/* line 8, ../sass/_successful-section.scss */
+.successful-section .thin-text {
+  margin: 21px 0 0;
+  color: #010101;
+  font: 400 15px/20px "Open Sans", sans-serif;
+}
+/* line 13, ../sass/_successful-section.scss */
+.successful-section .sub-title {
+  margin: 24px 0 21px;
+  color: black;
+  font: 600 15px/20px "Open Sans", sans-serif;
+}
+/* line 18, ../sass/_successful-section.scss */
+.successful-section .article-list {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+/* line 21, ../sass/_successful-section.scss */
+.successful-section .article-list li {
+  position: relative;
+  padding-left: 5px;
+  color: black;
+  font: 400 15px/20px "Open Sans", sans-serif;
+}
+/* line 27, ../sass/_successful-section.scss */
+.successful-section .article-list li:before {
+  position: absolute;
+  content: "";
+  top: 8px;
+  left: 0;
+  width: 4px;
+  height: 4px;
+  background-color: #000;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+}
+/* line 41, ../sass/_successful-section.scss */
+.successful-section .back-btn {
+  display: block;
+  float: right;
+  width: 98px;
+  height: 39px;
+  margin: 24px 0 26px;
+  color: black;
+  font: 700 18px/24px "Open Sans", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  border: 2px solid #cb5b2c;
+  overflow: hidden;
+  -webkit-border-top-left-radius: 2px;
+  -webkit-border-bottom-left-radius: 2px;
+  -moz-border-radius-topleft: 2px;
+  -moz-border-radius-bottomleft: 2px;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+/* line 60, ../sass/_successful-section.scss */
+.successful-section .back-btn span {
+  margin: 5px 0 0;
+  display: block;
+}
+
 @media (min-width: 480px) {
   /* line 4, ../sass/_media.scss */
   .oksana-section .video-title span {
