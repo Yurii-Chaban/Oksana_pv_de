@@ -484,4 +484,15 @@
 			}
 		}
 	}
+	// customer-references
+	.customer-references-section {
+		.customer-references-post-list {
+			li {
+				.photoWrapper {
+					float: left;
+					margin: 0 20px 0 0;
+				}
+			}
+		}
+	}
 }

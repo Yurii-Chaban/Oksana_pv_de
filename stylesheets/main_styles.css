@@ -2090,6 +2090,128 @@ footer .copyright .term-and-privacy a:hover {
   font: 400 18px/22px "Open Sans", sans-serif;
 }
 
+/* line 1, ../sass/_customer-references.scss */
+.customer-references-section {
+  padding: 26px 0 22px;
+  overflow: hidden;
+}
+/* line 5, ../sass/_customer-references.scss */
+.customer-references-section .customer-references-post-list {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 8, ../sass/_customer-references.scss */
+.customer-references-section .customer-references-post-list li {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  margin: 25px auto;
+  padding: 0 0 15px 0;
+}
+/* line 15, ../sass/_customer-references.scss */
+.customer-references-section .customer-references-post-list li:after {
+  position: absolute;
+  content: "";
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+  width: 268px;
+  height: 1px;
+  opacity: 0.8;
+  background-image: linear-gradient(to right, transparent 0%, #999 40%, #999 60%, transparent 100%);
+}
+@media (min-width: 768px) {
+  /* line 28, ../sass/_customer-references.scss */
+  .customer-references-section .customer-references-post-list li:after {
+    width: 550px;
+  }
+}
+/* line 33, ../sass/_customer-references.scss */
+.customer-references-section .customer-references-post-list li .photoWrapper {
+  width: 274px;
+  height: 166px;
+  margin: 0 0 15px;
+  overflow: hidden;
+}
+/* line 39, ../sass/_customer-references.scss */
+.customer-references-section .customer-references-post-list li .photoWrapper img {
+  max-width: 100%;
+  height: auto;
+}
+/* line 44, ../sass/_customer-references.scss */
+.customer-references-section .customer-references-post-list li .post-title {
+  margin: 13px 0 0;
+  color: #f19811;
+  font: 400 18px/20px "Open Sans", sans-serif;
+}
+/* line 49, ../sass/_customer-references.scss */
+.customer-references-section .customer-references-post-list li .post-date {
+  margin: 12px 0 14px;
+}
+/* line 51, ../sass/_customer-references.scss */
+.customer-references-section .customer-references-post-list li .post-date a {
+  color: black;
+  font: 300 16px/22px "Open Sans", sans-serif;
+}
+/* line 56, ../sass/_customer-references.scss */
+.customer-references-section .customer-references-post-list li .post-content {
+  color: #818181;
+  font: 400 18px/22px "Open Sans", sans-serif;
+}
+/* line 62, ../sass/_customer-references.scss */
+.customer-references-section .login-please {
+  margin: 30px auto;
+  text-align: center;
+  font: 400 25px/27px "Open Sans", sans-serif;
+}
+/* line 66, ../sass/_customer-references.scss */
+.customer-references-section .login-please span {
+  color: black;
+}
+/* line 69, ../sass/_customer-references.scss */
+.customer-references-section .login-please a {
+  color: #f19811;
+}
+/* line 71, ../sass/_customer-references.scss */
+.customer-references-section .login-please a:hover {
+  text-decoration: underline;
+}
+/* line 76, ../sass/_customer-references.scss */
+.customer-references-section .pagination-list {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 34px auto 31px;
+  text-align: center;
+}
+/* line 60, ../sass/main_styles.scss */
+.customer-references-section .pagination-list li {
+  display: inline-block;
+  margin: 0 3px;
+}
+/* line 64, ../sass/main_styles.scss */
+.customer-references-section .pagination-list li a {
+  font: 700 18px/20px "Open Sans", sans-serif;
+  text-transform: uppercase;
+  color: black;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+/* line 70, ../sass/main_styles.scss */
+.customer-references-section .pagination-list li a:hover {
+  color: #fd9e0e;
+}
+/* line 74, ../sass/main_styles.scss */
+.customer-references-section .pagination-list li a.pagination-active {
+  color: #fd9e0e;
+}
+
 @media (min-width: 480px) {
   /* line 4, ../sass/_media.scss */
   .oksana-section .video-title span {
@@ -4238,6 +4360,12 @@ footer .copyright .term-and-privacy a:hover {
 
   /* line 480, ../sass/_media.scss */
   .blog-more-section .blog-more-post .item .photoWrapper {
+    float: left;
+    margin: 0 20px 0 0;
+  }
+
+  /* line 491, ../sass/_media.scss */
+  .customer-references-section .customer-references-post-list li .photoWrapper {
     float: left;
     margin: 0 20px 0 0;
   }
