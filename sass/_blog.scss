@@ -1,0 +1,89 @@
+.blog-section {
+	padding: 26px 0 22px;
+	overflow: hidden;
+
+	.blog-post-list {
+		@include border-box;
+
+		li {
+			position: relative;
+			overflow: hidden;
+			display: block;
+			margin: 25px auto;
+			padding: 0 0 15px 0;
+
+			&:after {
+				position: absolute;
+				content: "";
+				left: 50%;
+				transform: translateX(-50%);
+				bottom: 0;
+				width: 268px;
+				height: 1px;
+				opacity: 0.8;
+				background-image: linear-gradient(to right, transparent 0%, #999 40%, #999 60%, transparent 100%);
+			}
+
+			@media(min-width: 768px) {
+				&:after {
+					width: 550px;
+				}
+			}
+
+			.photoWrapper {
+				width: 274px;
+				height: 166px;
+				margin: 0 0 15px;
+				overflow: hidden;
+
+				img {
+					max-width: 100%;
+					height: auto;
+				}
+			}
+			.post-title {
+				margin: 13px 0 0;
+				color: black;
+				font: 700 18px / 20px $OpenSans;
+			}
+			.post-date {
+				margin: 12px 0 14px;
+				a {
+					color: grey;
+					font: 300 16px / 22px $OpenSans;
+				}
+			}
+			.post-content {
+				color: #818181;
+				font: 400 18px / 22px $OpenSans;
+			}
+			.more-btn {
+				display: block;
+				float: right;
+				width: 98px;
+				height: 34px;
+				margin: 15px 0 25px;
+				color: #020101;
+				font: 700 18px / 24px $OpenSans;
+				text-align: center;
+				text-transform: uppercase;
+				border: 1px solid #cb5b2c;
+				overflow: hidden;
+
+				-webkit-border-top-left-radius: 2px;
+				-webkit-border-bottom-left-radius: 2px;
+				-moz-border-radius-topleft: 2px;
+				-moz-border-radius-bottomleft: 2px;
+				border-top-left-radius: 2px;
+				border-bottom-left-radius: 2px;
+				span {
+					margin: 3px 0 0;
+					display: block;
+				}
+			}
+		}
+	}
+	.pagination-list {
+		@include site-pagination;
+	}
+}

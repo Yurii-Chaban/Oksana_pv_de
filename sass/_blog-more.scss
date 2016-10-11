@@ -1,0 +1,42 @@
+.blog-more-section {
+	padding: 26px 0 22px;
+	overflow: hidden;
+
+	.blog-more-post {
+		@include border-box;
+
+		.item {
+			overflow: hidden;
+			display: block;
+			margin: 25px auto;
+
+			.photoWrapper {
+				width: 274px;
+				height: 166px;
+				margin: 0 0 15px;
+				overflow: hidden;
+
+				img {
+					max-width: 100%;
+					height: auto;
+				}
+			}
+			.post-title {
+				margin: 13px 0 0;
+				color: black;
+				font: 700 18px / 20px $OpenSans;
+			}
+			.post-date {
+				margin: 12px 0 14px;
+				a {
+					color: grey;
+					font: 300 16px / 22px $OpenSans;
+				}
+			}
+			.post-content {
+				color: #818181;
+				font: 400 18px / 22px $OpenSans;
+			}
+		}
+	}
+}

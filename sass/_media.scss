@@ -462,4 +462,26 @@
 			}
 		}
 	}
+	// BLOG PAGE
+	.blog-section {
+		.blog-post-list {
+			li {
+				.photoWrapper {
+					float: left;
+					margin: 0 20px 0 0;
+				}
+			}
+		}
+	}
+	// BLOG_MORE
+	.blog-more-section {
+		.blog-more-post {
+			.item {
+				.photoWrapper {
+					float: left;
+					margin: 0 20px 0 0;
+				}
+			}
+		}
+	}
 }
