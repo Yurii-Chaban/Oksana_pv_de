@@ -2303,27 +2303,28 @@ footer .copyright .term-and-privacy a:hover {
 }
 /* line 12, ../sass/_question-answers-section.scss */
 .question-answers-section .question-answers-item .article-title {
+  text-align: center;
   color: black;
   font: 600 18px/22px "Open Sans", sans-serif;
 }
-/* line 17, ../sass/_question-answers-section.scss */
+/* line 18, ../sass/_question-answers-section.scss */
 .question-answers-section .question-answers-item .item {
   margin: 25px auto 0;
   padding: 17px 0 19px 8px;
   border: 1px solid #959595;
 }
-/* line 22, ../sass/_question-answers-section.scss */
+/* line 23, ../sass/_question-answers-section.scss */
 .question-answers-section .question-answers-item .item .title {
   margin: 0 0 15px 0;
   color: #cb7a00;
   font: 600 22px/24px "Open Sans", sans-serif;
 }
-/* line 27, ../sass/_question-answers-section.scss */
+/* line 28, ../sass/_question-answers-section.scss */
 .question-answers-section .question-answers-item .item .content {
   color: #818181;
   font: 300 18px/22px "Open Sans", sans-serif;
 }
-/* line 33, ../sass/_question-answers-section.scss */
+/* line 34, ../sass/_question-answers-section.scss */
 .question-answers-section .pagination-list {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -2355,6 +2356,33 @@ footer .copyright .term-and-privacy a:hover {
 /* line 74, ../sass/main_styles.scss */
 .question-answers-section .pagination-list li a.pagination-active {
   color: #fd9e0e;
+}
+
+/* line 1, ../sass/_services-menu-section.scss */
+.services-menu-section {
+  padding: 20px 0 24px;
+}
+/* line 4, ../sass/_services-menu-section.scss */
+.services-menu-section .services-menu-list {
+  max-width: 1010px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+/* line 9, ../sass/_services-menu-section.scss */
+.services-menu-section .services-menu-list li {
+  display: block;
+  border-bottom: 1px solid #fff;
+  background-color: #f19811;
+}
+/* line 14, ../sass/_services-menu-section.scss */
+.services-menu-section .services-menu-list li a {
+  display: block;
+  padding: 15px;
+  color: black;
+  font: 400 18px/22px "Open Sans", sans-serif;
 }
 
 @media (min-width: 480px) {

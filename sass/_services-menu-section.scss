@@ -1,0 +1,22 @@
+.services-menu-section {
+	padding: 20px 0 24px;
+
+	.services-menu-list {
+		max-width: 1010px;
+		@include border-box;
+		margin: 0 auto;
+
+		li {
+			display: block;
+			border-bottom: 1px solid #fff;
+			background-color: #f19811;
+
+			a {
+				display: block;
+				padding: 15px;
+				color: black;
+				font: 400 18px / 22px $OpenSans;
+			}
+		}
+	}
+}
