@@ -1,0 +1,57 @@
+.imprint-section {
+	padding: 20px 0;
+	overflow: hidden;
+
+	.big-title {
+		margin: 20px 0;
+		color: #f19811;
+		font: 600 22px / 24px $OpenSans;
+	}
+	.sign {
+		color: black;
+		font: 600 15px / 20px $OpenSans;
+	}
+	.grey-text {
+		margin: 20px 0 0;
+		color: #818181;
+		font-family: OpenSans;
+		font-size: 15px;
+		font-weight: 400;
+		line-height: 20px;
+		.orange-sign {
+			color: #f19811;
+			font: 400 18px / 22px $OpenSans;
+		}
+	}
+	.address {
+		color: black;
+		font: 400 18px / 22px $OpenSans;
+		span {
+			display: block;
+		}
+	}
+	.back-btn {
+		display: block;
+		float: right;
+		width: 98px;
+		height: 39px;
+		margin: 24px 0 26px;
+		color: black;
+		font: 700 18px / 24px $OpenSans;
+		text-align: center;
+		text-transform: uppercase;
+		border: 2px solid #cb5b2c;
+		overflow: hidden;
+
+		-webkit-border-top-left-radius: 2px;
+		-webkit-border-bottom-left-radius: 2px;
+		-moz-border-radius-topleft: 2px;
+		-moz-border-radius-bottomleft: 2px;
+		border-top-left-radius: 2px;
+		border-bottom-left-radius: 2px;
+		span {
+			margin: 5px 0 0;
+			display: block;
+		}
+	}
+}

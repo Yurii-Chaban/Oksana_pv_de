@@ -112,35 +112,3 @@ var swiper_main = new Swiper('.swiper-container-design-mobile', {
     watchSlidesProgress: true,
     autoplayDisableOnInteraction: false
 });
-// $(document).ready(function(){
-//   var mySwiper = new Swiper('.swiper-container-design-mobile',{
-//     centeredSlides: true,
-//     simulateTouch: false,
-//     loop: true,
-//     slidesPerView: 3,
-//     spaceBetween: 30,
-//     autoplay: 3500,
-//     speed: 1000,
-//     freeMode: true,
-//     slidesPerView: 'auto'
-//   });
-//   function fixSwiper() {
-//     if ($(window).width() < 1375) {
-//       //For example 3 slides per slide:
-//       $('.swiper-slide').css({width: mySwiper.width/3})
-//     }
-//     if ($(window).width() < 675) {
-//       //For example 2 slides per slide:
-//       $('.swiper-slide').css({width: mySwiper.width/2})
-//     }
-//     if ($(window).width() <= 320) {
-//       //For example 2 slides per slide:
-//       $('.swiper-slide').css({width: mySwiper.width})
-//     }
-//     mySwiper.reInit()
-//   }
-//   //Fix it right after initialization
-//   fixSwiper();
-//   //And on window resize
-//   $(window).resize(function(){ fixSwiper() })
-// })
