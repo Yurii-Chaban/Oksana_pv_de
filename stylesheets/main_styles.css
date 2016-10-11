@@ -2514,26 +2514,23 @@ footer .copyright .term-and-privacy a:hover {
 .imprint-section .grey-text {
   margin: 20px 0 0;
   color: #818181;
-  font-family: OpenSans;
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 20px;
+  font: 400 15px/20px "Open Sans", sans-serif;
 }
-/* line 21, ../sass/_imprint-section.scss */
+/* line 18, ../sass/_imprint-section.scss */
 .imprint-section .grey-text .orange-sign {
   color: #f19811;
-  font: 400 18px/22px "Open Sans", sans-serif;
+  font: 400 16px/20px "Open Sans", sans-serif;
 }
-/* line 26, ../sass/_imprint-section.scss */
+/* line 23, ../sass/_imprint-section.scss */
 .imprint-section .address {
   color: black;
   font: 400 18px/22px "Open Sans", sans-serif;
 }
-/* line 29, ../sass/_imprint-section.scss */
+/* line 26, ../sass/_imprint-section.scss */
 .imprint-section .address span {
   display: block;
 }
-/* line 33, ../sass/_imprint-section.scss */
+/* line 30, ../sass/_imprint-section.scss */
 .imprint-section .back-btn {
   display: block;
   float: right;
@@ -2553,10 +2550,117 @@ footer .copyright .term-and-privacy a:hover {
   border-top-left-radius: 2px;
   border-bottom-left-radius: 2px;
 }
-/* line 52, ../sass/_imprint-section.scss */
+/* line 49, ../sass/_imprint-section.scss */
 .imprint-section .back-btn span {
   margin: 5px 0 0;
   display: block;
+}
+
+/* line 1, ../sass/_contact-section.scss */
+.contact-section {
+  padding: 20px 0;
+  overflow: hidden;
+}
+/* line 5, ../sass/_contact-section.scss */
+.contact-section .top-block {
+  padding: 0 0 20px 0;
+  position: relative;
+}
+/* line 9, ../sass/_contact-section.scss */
+.contact-section .top-block:after {
+  position: absolute;
+  content: "";
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+  width: 268px;
+  height: 1px;
+  opacity: 0.8;
+  background-image: linear-gradient(to right, transparent 0%, #999 40%, #999 60%, transparent 100%);
+}
+@media (min-width: 768px) {
+  /* line 21, ../sass/_contact-section.scss */
+  .contact-section .top-block:after {
+    width: 550px;
+  }
+}
+/* line 26, ../sass/_contact-section.scss */
+.contact-section .top-block .big-title {
+  color: #f19811;
+  font: 600 22px/24px "Open Sans", sans-serif;
+}
+/* line 30, ../sass/_contact-section.scss */
+.contact-section .top-block .contact-sub-title {
+  margin: 20px 0 15px;
+  color: black;
+  font: 700 18px/22px "Open Sans", sans-serif;
+}
+/* line 35, ../sass/_contact-section.scss */
+.contact-section .top-block .content-text {
+  color: black;
+  font: 400 18px/22px "Open Sans", sans-serif;
+}
+/* line 38, ../sass/_contact-section.scss */
+.contact-section .top-block .content-text .black-sign {
+  font-weight: 700;
+}
+/* line 43, ../sass/_contact-section.scss */
+.contact-section .contact-form {
+  max-width: 600px;
+  margin: 25px auto 0;
+  overflow: hidden;
+}
+/* line 50, ../sass/_contact-section.scss */
+.contact-section .contact-form #contact-form .row label {
+  display: block;
+  margin: 0 0 12px 10px;
+  color: black;
+  font: 400 18px/22px "Open Sans", sans-serif;
+}
+/* line 57, ../sass/_contact-section.scss */
+.contact-section .contact-form #contact-form .row #name,
+.contact-section .contact-form #contact-form .row #email,
+.contact-section .contact-form #contact-form .row #phone,
+.contact-section .contact-form #contact-form .row #message-area {
+  display: block;
+  width: 100%;
+  border: 1px solid rgba(15, 16, 16, 0.36);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none;
+  resize: none;
+  color: black;
+  font: 400 18px/22px "Open Sans", sans-serif;
+}
+/* line 71, ../sass/_contact-section.scss */
+.contact-section .contact-form #contact-form .row #name,
+.contact-section .contact-form #contact-form .row #email,
+.contact-section .contact-form #contact-form .row #phone {
+  height: 36px;
+  padding: 0 0 0 10px;
+}
+/* line 77, ../sass/_contact-section.scss */
+.contact-section .contact-form #contact-form .row #message-area {
+  height: 138px;
+  margin: 30px auto 0;
+  padding: 10px 0 0 10px;
+}
+/* line 84, ../sass/_contact-section.scss */
+.contact-section .contact-form #for-contact-form-btn {
+  display: block;
+  width: 284px;
+  height: 33px;
+  margin: 33px auto;
+  color: white;
+  text-align: center;
+  font: 400 18px/33px "Open Sans", sans-serif;
+  text-transform: uppercase;
+  background-color: #f39910;
+  border: inherit;
+  outline: none;
+  cursor: pointer;
 }
 
 @media (min-width: 480px) {

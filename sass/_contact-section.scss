@@ -1,0 +1,99 @@
+.contact-section {
+	padding: 20px 0;
+	overflow: hidden;
+	
+	.top-block {
+		padding: 0 0 20px 0;
+		position: relative;
+
+		&:after {
+			position: absolute;
+			content: "";
+			left: 50%;
+			transform: translateX(-50%);
+			bottom: 0;
+			width: 268px;
+			height: 1px;
+			opacity: 0.8;
+			background-image: linear-gradient(to right, transparent 0%, #999 40%, #999 60%, transparent 100%);
+		}
+		@media (min-width: 768px) {
+			&:after {
+				width: 550px;
+			}
+		}
+
+		.big-title {
+			color: #f19811;
+			font: 600 22px / 24px $OpenSans;
+		}
+		.contact-sub-title {
+			margin: 20px 0 15px;
+			color: black;
+			font: 700 18px / 22px $OpenSans;
+		}
+		.content-text {
+			color: black;
+			font: 400 18px / 22px $OpenSans;
+			.black-sign {
+				font-weight: 700;
+			}
+		}
+	}
+	.contact-form {
+		max-width: 600px;
+		margin: 25px auto 0;
+		overflow: hidden;
+
+		#contact-form {
+			.row {
+				label {
+					display: block;
+					margin: 0 0 12px 10px;
+					color: black;
+					font: 400 18px / 22px $OpenSans;
+				}
+
+				#name,
+				#email,
+				#phone,
+				#message-area {
+					display: block;
+					width: 100%;
+					border: 1px solid rgba(15, 16, 16, 0.36);
+					@include border-box;
+					outline: none;
+					resize: none;
+					color: black;
+					font: 400 18px / 22px $OpenSans;
+				}
+
+				#name,
+				#email,
+				#phone {
+					height: 36px;
+					padding: 0 0 0 10px;
+				}
+				#message-area {
+					height: 138px;
+					margin: 30px auto 0;
+					padding: 10px 0 0 10px;
+				}
+			}
+		}
+		#for-contact-form-btn {
+			display: block;
+			width: 284px;
+			height: 33px;
+			margin: 33px auto;
+			color: white;
+			text-align: center;
+			font: 400 18px / 33px $OpenSans;
+			text-transform: uppercase;
+			background-color: #f39910;
+			border: inherit;
+			outline: none;
+			cursor: pointer;
+		}
+	}
+}
