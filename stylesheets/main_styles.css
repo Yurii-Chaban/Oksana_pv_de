@@ -2385,6 +2385,115 @@ footer .copyright .term-and-privacy a:hover {
   font: 400 18px/22px "Open Sans", sans-serif;
 }
 
+/* line 1, ../sass/_recommendations-section.scss */
+.recommendations-section {
+  padding: 20px 0 29px;
+}
+/* line 4, ../sass/_recommendations-section.scss */
+.recommendations-section .swiper-container-design-mobile .swiper-container {
+  width: 100%;
+  margin: 20px auto 60px !important;
+}
+/* line 10, ../sass/_recommendations-section.scss */
+.recommendations-section .swiper-container-design-mobile .left-white-block,
+.recommendations-section .swiper-container-design-mobile .right-white-block {
+  position: absolute;
+  top: 0;
+  width: 30%;
+  height: 260px;
+  background: rgba(255, 255, 255, 0.7);
+  z-index: 9;
+}
+/* line 19, ../sass/_recommendations-section.scss */
+.recommendations-section .swiper-container-design-mobile .left-white-block {
+  left: 0;
+}
+/* line 22, ../sass/_recommendations-section.scss */
+.recommendations-section .swiper-container-design-mobile .right-white-block {
+  right: 0;
+}
+/* line 26, ../sass/_recommendations-section.scss */
+.recommendations-section .swiper-container-design-mobile .swiper-slide {
+  webkit-flex-shrink: 0;
+  -ms-flex: 0 0 auto;
+  flex-shrink: 0;
+  width: 200%;
+  height: 100%;
+  min-height: 260px;
+  max-height: 260px;
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+/* line 52, ../sass/_recommendations-section.scss */
+.recommendations-section .swiper-container-design-mobile .swiper-slide img {
+  z-index: 1;
+  /* min-width: 100%; */
+  width: 100%;
+  max-width: auto;
+  min-height: 260px;
+  max-height: auto;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+/* line 67, ../sass/_recommendations-section.scss */
+.recommendations-section .swiper-container-design-mobile .swiper-slide .photo-sign {
+  display: none;
+}
+/* line 71, ../sass/_recommendations-section.scss */
+.recommendations-section .swiper-container-design-mobile .swiper-slide-active {
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+/* line 73, ../sass/_recommendations-section.scss */
+.recommendations-section .swiper-container-design-mobile .swiper-slide-active .photo-sign {
+  width: 100%;
+  display: block;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 10px;
+  z-index: 15;
+  color: black;
+  font: 700 18px/20px "Open Sans", sans-serif;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+/* line 87, ../sass/_recommendations-section.scss */
+.recommendations-section .title-for-content {
+  margin: 30px auto;
+  text-align: center;
+  color: black;
+  font: 700 18px/22px "Open Sans", sans-serif;
+}
+/* line 93, ../sass/_recommendations-section.scss */
+.recommendations-section .content {
+  color: #2c2c2c;
+  font: 400 18px/22px "Open Sans", sans-serif;
+}
+
 @media (min-width: 480px) {
   /* line 4, ../sass/_media.scss */
   .oksana-section .video-title span {
