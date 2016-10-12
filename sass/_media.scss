@@ -37,119 +37,136 @@
 			.about-section {
 				.photo-wrapper {
 					float: left;
-					margin: 0 20px 0 0
-					;		}
+					margin: 0 20px 0 0;
+				}
+			}
+			.section-fo-man {
+				.formWrapper {
+					#for-man-form {
+						.fot-birthday {
+							.ui.compact.selection.dropdown {
+								width: 29%;
+							}
+
+							.ui.compact.selection.dropdown.birthday-month {
+								width: 38%;
+								margin: 0 3px 0;
+							}
+						}
+					}
 				}
 			}
 
-			@media (min-width: 768px) {
+		}
 
-				header {
-					.block-logo {
-						.logo {
-							max-width: 200px;
-						}
+		@media (min-width: 768px) {
+
+			header {
+				.block-logo {
+					.logo {
+						max-width: 200px;
 					}
 				}
+			}
 
-				@mixin section-title {
-					&:after {
-						width: 550px;
-					}
+			@mixin section-title {
+				&:after {
+					width: 550px;
 				}
+			}
 
-				.for-girls-section {
-					.images-wrapper {
-						float: left;
-						margin: 0 15px 0 0;
-					}
+			.for-girls-section {
+				.images-wrapper {
+					float: left;
+					margin: 0 15px 0 0;
 				}
+			}
 
-				.slider-section {
-					.mobile-slider {
-						display: none;
-					}
-					.desctop-slider {
-						display: block;
-						.swiper-container-desctop {
-							width: 100%;
-							height: 100%;
-							overflow: hidden;
-							position: relative;
+			.slider-section {
+				.mobile-slider {
+					display: none;
+				}
+				.desctop-slider {
+					display: block;
+					.swiper-container-desctop {
+						width: 100%;
+						height: 100%;
+						overflow: hidden;
+						position: relative;
 
-							.swiper-slide {
-								text-align: center;
-								font-size: 18px;
-								background: #fff;
-								/* Center slide text vertically */
-								display: -webkit-box;
-								display: -ms-flexbox;
-								display: -webkit-flex;
-								display: flex;
-								-webkit-box-pack: center;
-								-ms-flex-pack: center;
-								-webkit-justify-content: center;
-								justify-content: center;
-								-webkit-box-align: center;
-								-ms-flex-align: center;
-								-webkit-align-items: center;
-								align-items: center;
+						.swiper-slide {
+							text-align: center;
+							font-size: 18px;
+							background: #fff;
+							/* Center slide text vertically */
+							display: -webkit-box;
+							display: -ms-flexbox;
+							display: -webkit-flex;
+							display: flex;
+							-webkit-box-pack: center;
+							-ms-flex-pack: center;
+							-webkit-justify-content: center;
+							justify-content: center;
+							-webkit-box-align: center;
+							-ms-flex-align: center;
+							-webkit-align-items: center;
+							align-items: center;
 
-								img {
-									max-width: 100%;
-								}
+							img {
+								max-width: 100%;
+							}
 
-								.description-list {
-									@include border-box;
-									text-align: left;
+							.description-list {
+								@include border-box;
+								text-align: left;
 
-									li {
-										span {
-											color: black;
-											font: 400 18px / 25px $OpenSans;
-										}
+								li {
+									span {
+										color: black;
+										font: 400 18px / 25px $OpenSans;
 									}
 								}
 							}
+						}
 
-							.swiper-button-next, .swiper-button-prev {
-								width: 20px;
-								height: 30px;
-							}
+						.swiper-button-next, .swiper-button-prev {
+							width: 20px;
+							height: 30px;
+						}
 
-							.swiper-button-prev {
-								background-image: none;
-								background: url('../images/prev-btn.png') no-repeat;
-							}
-							.swiper-button-next {
-								background-image: none;
-								background: url('../images/next-btn.png') no-repeat;
-							}
+						.swiper-button-prev {
+							background-image: none;
+							background: url('../images/prev-btn.png') no-repeat;
+						}
+						.swiper-button-next {
+							background-image: none;
+							background: url('../images/next-btn.png') no-repeat;
 						}
 					}
 				}
+			}
 
-				.fill-section {
-					padding: 0 0 42px 0;
-					.section-img-wrapper {
-						height: 410px;
-						max-width: 972px;
-						max-height: 410px;
-						margin: 0 auto;
-						text-align: center;
+			.fill-section {
+				padding: 0 0 42px 0;
+				.section-img-wrapper {
+					height: 410px;
+					max-width: 972px;
+					max-height: 410px;
+					margin: 0 auto;
+					text-align: center;
 
-						#border-block {
-							width: 300px;
-							bottom: 120px;
-							border-bottom: 120px solid rgba(246, 154, 16, 0.6);
+					#border-block {
+						width: 300px;
+						bottom: 120px;
+						border-bottom: 120px solid rgba(246, 154, 16, 0.6);
 
-							a {
-								font-size: 32px;
-								line-height: 38px;
-							}
+						a {
+							font-size: 32px;
+							line-height: 38px;
 						}
 					}
 				}
+			}
 	// FOR FILL PAGE
 	.fill-page {
 		.fill-content {
@@ -292,7 +309,7 @@
 					}
 					.for-character-traits,
 					.for-girl-interesting {
-						min-height: 1035px;
+						overflow: hidden;
 						li {
 							clear: both;
 							overflow: hidden;
@@ -358,6 +375,300 @@
 					#submit-girl-form {
 						float: inherit;
 						margin: 20px auto 30px;
+					}
+				}
+			}
+		}
+	}
+	// FOR REGISTER MAN PAGE
+	.section-fo-man {
+		.formWrapper {
+			#for-man-form {
+				.for-name,
+				.for-surname {
+					clear: both;
+					min-height: 36px;
+					label {
+						width: 47%;
+						float: left;
+					}
+					input {
+						width: 53%;
+						float: right;
+					}
+				}
+				.fot-birthday,
+				.for-country,
+				.for-city,
+				.for-region,
+				.for-town,
+				.for-address,
+				.for-nationality,
+				.for-email,
+				.for-phone,
+				.for-family-status,
+				.for-children,
+				.for-future-children,
+				.for-growth,
+				.for-body-type,
+				.for-weight,
+				.for-hair-color,
+				.for-eyes-color,
+				.for-character-traits,
+				.for-attitude-towards-smoking,
+				.for-worship,
+				.for-education,
+				.for-currently-work,
+				.for-question-circle,
+				.for-girl-interesting,
+				.for-zodiac,
+				.for-about-yourself,
+				.for-man-age,
+				.for-wishes-to-partner,
+				.for-upload-picture,
+				.for-upload-ather,
+				.man-name,
+				.man-surname,
+				.for-phone-number,
+				.for-character-traits-second,
+				.for-interesting,
+				.for-age-partners,
+				.for-family-status,
+				.for-children-status,
+				.for-growth-partners,
+				.for-education-partners {
+					clear: both;
+					min-height: 36px;
+					label,
+					.styling-item,
+					.interesting-title {
+						width: 45%;
+						float: left;
+						margin: 0 0 8px 10px;
+						color: black;
+						font: 400 18px/22px $OpenSans;
+					}
+					.grouping-container,
+					#man-name,	
+					#man-surname,				
+					.country-select,
+					.select-city,
+					#region,
+					#city_willage_town,
+					#address,
+					#nationality,
+					#email,
+					#phone,
+					#family-status,
+					#children ,
+					#future-children,
+					#growth,
+					#body-type,
+					#weight,
+					#hair-color,
+					#eyes-color,
+					.character-traits,
+					#attitude-towards-smoking,
+					#worship,
+					#education,
+					#currently-work,
+					.girlLangList,
+					.girl-interesting-block,
+					#zodiac-sign,
+					#about-yourself,
+					.age-container,
+					#wishes-to-partner,
+					.btn-container,
+					#phone-number,
+					#character-traits-second,
+					.interesting-block,
+					.age-container,
+					#family-status-partners,
+					#future-children,
+					.growth-container,
+					#education-partners {
+						float: right;
+						width: 53%;
+					}
+					#upload-btn {
+						width: 281px;
+						margin: 0;
+					}
+					#upload-ather-btn,
+					.upload-btn {
+						width: 363px;
+						height: 39px;
+						margin: 0;
+					}
+
+					.character-traits,
+					.girl-interesting-block {
+						.left,
+						.left-block,
+						.right,
+						.right-block {
+							width: 50%;
+							li {
+								label {
+									font-size: 15px;
+									line-height: 18px;
+								}
+							}
+						}
+						.left,
+						.left-block {
+							float: left;
+						}
+						.right,
+						.right-block {
+							float: right;
+						}
+					}
+				}
+
+				.for-growth-partners {
+					.growth-container {
+						.growths-status-bis,
+						.growths-status-von {
+							width: 47%;
+						}
+						.growths-status-bis {
+							float: left;
+						}
+						.growths-status-von {
+							float: right;
+						}
+					}
+				}
+
+				.for-age-partners, {
+					.age-container,
+					.container {
+						.age-from,
+						.age-to {
+							width: 47%;
+						}
+						.age-from {
+							float: left;
+						}
+						.age-to {
+							float: right;
+						}
+					}
+				}
+				.for-about-yourself,
+				.for-wishes-to-partner {
+					min-height: 130px;
+				}
+				.for-email {
+					label[for="email"] {
+						span {
+							display: inline;
+						}
+					}
+				}
+				.for-character-traits,
+				.interesting-block-list {
+					overflow: hidden;
+					li {
+						clear: both;
+						overflow: hidden;
+						label {
+							width: 90%;
+							float: left;
+						}
+						input[type="checkbox"] {
+							float: left;
+							margin: 6px 3px 0 0;
+						}
+					}
+				}
+				.for-girl-interesting {
+					min-height: 560px;
+				}
+				.for-question-circle {
+					min-height: 350px;
+
+					.girlLangList {
+						li {
+							clear: both;
+							overflow: hidden;
+							input[type="checkbox"] {
+								float: left;
+								margin: 5px 3px 0 0;
+							}
+							label[for="english"],
+							label[for="germany"],
+							label[for="french"],
+							label[for="italian"],
+							label[for="spanish"],
+							label[for="russian"] {
+								float: left;
+								width: auto;
+							}
+							.radio-container {
+								float: right;
+							}
+						}
+					}
+				}
+				.for-agree {
+					overflow: hidden;
+					clear: both;
+					margin: 0 auto;
+					text-align: center;
+
+					#agreement {
+						display: inline-block;
+						float: inherit;
+					}
+
+					label[for="agreement"] {
+						float: inherit;
+						display: inline-block;
+						width: 431px;
+						height: 26px;
+						margin: 13px 0 0;
+						background-color: #f29912;
+						border: 1px solid white;
+						span {
+							margin-top: 4px;
+						}
+					}
+				}
+				#submit-girl-form {
+					float: inherit;
+					margin: 20px auto 30px;
+				}
+				.for-weight-partners,
+				.for-education-partners,
+				.for-weight-partners,
+				.heir-status-partners,
+				.for-eye-color-partners,
+				.for-worship-partners,
+				.for-zodiack-partners,
+				.for-language-partners {
+
+					clear: both;
+					min-height: 36px;
+					label,
+					.styling-item,
+					.interesting-title {
+						width: 45%;
+						float: left;
+						margin: 0 0 8px 10px;
+						color: black;
+						font: 400 18px/22px $OpenSans;
+					}
+
+					#weight-for-man-partners,
+					#hair-color-partners,
+					#eyes-color-partners,
+					#worship-partners,
+					#zodiac-sign-partners,
+					#lenguages-partners {
+						float: right;
+						width: 53%;
 					}
 				}
 			}
